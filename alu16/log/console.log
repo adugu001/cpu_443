@@ -1,0 +1,5 @@
+acom -O3 -e 100 -work alu16 -2008  $dsn/src/alu16.vhd
+# Compile Entity "alu16"
+# Compile Architecture "behavioral" of Entity "alu16"
+# Compile Architecture "structural" of Entity "alu16"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]

@@ -1,0 +1,21 @@
+acom -O3 -e 100 -work gates -2002  $dsn/src/and2.vhd $dsn/src/buf1.vhd $dsn/src/nand2.vhd $dsn/src/nor2.vhd $dsn/src/not1.vhd $dsn/src/or2.vhd $dsn/src/xnor2.vhd $dsn/src/xor2.vhd
+# Compile Entity "and2"
+# Compile Architecture "rtl" of Entity "and2"
+# Compile Entity "buf1"
+# Compile Architecture "rtl" of Entity "buf1"
+# Compile Entity "nand2"
+# Compile Architecture "rtl" of Entity "nand2"
+# Compile Entity "nor2"
+# Compile Architecture "rtl" of Entity "nor2"
+# Compile Entity "not1"
+# Compile Architecture "rtl" of Entity "not1"
+# Compile Entity "or2"
+# Compile Architecture "rtl" of Entity "or2"
+# Compile Entity "xnor2"
+# Compile Architecture "rtl" of Entity "xnor2"
+# Compile Entity "xor2"
+# Compile Architecture "rtl" of Entity "xor2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Design: Design "halfAdder" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/halfAdder/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/halfAdder/projlib.cfg -work halfAdder -O3 -e 100 -work halfAdder -2002 C:/Aldec/My_Designs/cpu_443/halfAdder/src/halfAdder.vhd 

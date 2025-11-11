@@ -1,0 +1,6 @@
+acom -O3 -e 100 -work subtractor16 -2008  $dsn/src/subtractor16.vhd
+# Compile Entity "subtractor16"
+# Compile Architecture "behavioral" of Entity "subtractor16"
+# Compile Architecture "structural" of Entity "subtractor16"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Design: Design "mux16" has been set as active.

@@ -1,0 +1,28 @@
+timestamp=1762884344302
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=4|0fullAdder.mgf|3518|1264
+1=4|1fullAdder.mgf|5318|4484
+3=2|3fullAdder.mgf|0|0
+
+[fulladder]
+A/behavioral=21|../src/fullAdder.vhd|20|1*4484
+A/structural=21|../src/fullAdder.vhd|26|1*5318
+BinW64/behavioral=3*0
+I=0*642
+I/behavioral=0*3266
+I/structural=0*3518
+M=11|2|vf5|1762883738331|../src/fullAdder.vhd|0*191*0x3bcddc7eb39b1666ccb1b1e7a80232b4ce2f2a1c|0*559*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|2|vf5|1762884344269|../src/fullAdder.vhd|0*883*0xcb5f95c73e8ab4b2a7d29cbcf1138ca225a60128|0*1125*0x20116f55b147878295aeff36dce7fc50
+M/structural=21|2|vf5|1762884344285|../src/fullAdder.vhd|0*1474*0xddd26fc5e87f5b3392b83f6740351b9558808789|0*2157*0x20116f55b147878295aeff36dce7fc50
+R=../src/fullAdder.vhd|10
+Version=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|c12a13e6fa1dde32095fc858f2c5d0a25fe0f6cc11f37d48b53e35433dff82a02dd825d4d0d159675064055c047d9f8a
+Version/behavioral=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4cb565af26f6cf46d2ad6ae7c3c6a9be4
+Version/structural=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eba16263ae7a7f47985b35535a59366276
+
+[~U]
+fulladder=fullAdder 11|0*0|

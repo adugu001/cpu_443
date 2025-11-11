@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/mult16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/mult16/projlib.cfg -work mult16 -O3 -e 100 -work mult16 -2002 C:/Aldec/My_Designs/cpu_443/mult16/src/mult16.vhd 

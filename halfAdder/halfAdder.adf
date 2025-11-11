@@ -1,0 +1,61 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=halfAdder
+[Library]
+halfAdder=.\halfAdder\halfAdder.lib
+gates=.\..\gates\gates\gates.lib
+[$LibMap$]
+halfAdder=.
+Active_lib=
+gates=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/halfAdder.vhd=-1
+[Files.Data]
+.\src\halfAdder.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension2=dll
+name3=Event Lists
+directory3=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension3=lst
+name4=HTML Files
+directory4=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Aldec\My_Designs\cpu_443\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension9=tbp
+name10=Script Files
+directory10=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Aldec\My_Designs\cpu_443\halfAdder\
+extension11=asdb;awc;asdbc;asdbe

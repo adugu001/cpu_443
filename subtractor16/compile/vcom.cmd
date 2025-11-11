@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/subtractor16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/subtractor16/projlib.cfg -work subtractor16 -O3 -e 100 -work subtractor16 -2008 C:/Aldec/My_Designs/cpu_443/subtractor16/src/subtractor16.vhd 

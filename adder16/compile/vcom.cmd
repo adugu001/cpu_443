@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/adder16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/adder16/projlib.cfg -work adder16 -O3 -e 100 -work adder16 -2002 C:/Aldec/My_Designs/cpu_443/adder16/src/adder16.vhd 

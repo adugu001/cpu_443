@@ -1,0 +1,8 @@
+acom -O3 -e 100 -work halfAdder -2002  $dsn/src/halfAdder.vhd
+# Compile Entity "halfAdder"
+# Compile Architecture "behavioral" of Entity "halfAdder"
+# Compile Architecture "structural" of Entity "halfAdder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Design: Design "fullAdder" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

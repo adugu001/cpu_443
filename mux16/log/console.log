@@ -1,0 +1,8 @@
+acom -O3 -e 100 -work mux16 -2008  $dsn/src/mux16.vhd $dsn/src/mux.vhd
+# Compile Entity "mux16"
+# Compile Architecture "behavioral" of Entity "mux16"
+# Compile Architecture "structural" of Entity "mux16"
+# Compile Entity "mux"
+# Compile Architecture "behavioral" of Entity "mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Design: Design "alu16" has been set as active.

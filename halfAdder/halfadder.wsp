@@ -1,0 +1,15 @@
+[COMPILESTATUS|.\src\halfAdder.vhd]
+FileTimeLow=299745856
+FileTimeHigh=31216436
+Status=Compiled
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+gates=0
+halfAdder=0
+fullAdder=0
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\halfAdder\halfAdder.adf|]
+Path=
+[Gui config]
+RunFor=100 ns

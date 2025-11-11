@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/alu16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/alu16/projlib.cfg -work alu16 -O3 -e 100 -work alu16 -2008 C:/Aldec/My_Designs/cpu_443/alu16/src/alu16.vhd 

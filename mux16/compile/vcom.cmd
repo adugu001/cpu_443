@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/mux16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/mux16/projlib.cfg -work mux16 -O3 -e 100 -work mux16 -2008 C:/Aldec/My_Designs/cpu_443/mux16/src/mux16.vhd C:/Aldec/My_Designs/cpu_443/mux16/src/mux.vhd 

@@ -1,0 +1,5 @@
+acom -O3 -e 100 -work mult16 -2002  $dsn/src/mult16.vhd
+# Compile Entity "mult16"
+# Compile Architecture "behavioral" of Entity "mult16"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Design: Design "alu16" has been set as active.

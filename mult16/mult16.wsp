@@ -1,0 +1,20 @@
+[COMPILESTATUS|.\src\mult16.vhd]
+FileTimeLow=1527491477
+FileTimeHigh=31216437
+Status=Compiled
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+gates=0
+halfAdder=0
+fullAdder=0
+adder16=0
+subtractor16=0
+mux16=0
+mult16=0
+alu16=0
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\mult16\mult16.adf|]
+Path=
+[Gui config]
+RunFor=100 ns

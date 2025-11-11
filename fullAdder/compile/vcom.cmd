@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/fullAdder/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/fullAdder/projlib.cfg -work fullAdder -O3 -e 100 -work fullAdder -2002 C:/Aldec/My_Designs/cpu_443/fullAdder/src/fullAdder.vhd 
