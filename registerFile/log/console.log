@@ -1,0 +1,29 @@
+acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behavioral" of Entity "registerFile"
+# Error: COMP96_0078: registerFile.vhd : (31, 3): Unknown identifier "data_out".
+# Error: COMP96_0133: registerFile.vhd : (31, 3): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behavioral" of Entity "registerFile"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behavioral" of Entity "registerFile"
+# Error: COMP96_0078: registerFile.vhd : (28, 13): Unknown identifier "regs".
+# Error: COMP96_0133: registerFile.vhd : (28, 13): Cannot find object declaration.
+# Error: COMP96_0289: registerFile.vhd : (28, 13): Prefix of index must be an array.
+# Error: COMP96_0077: registerFile.vhd : (28, 13): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0078: registerFile.vhd : (30, 13): Unknown identifier "regs".
+# Error: COMP96_0133: registerFile.vhd : (30, 13): Cannot find object declaration.
+# Error: COMP96_0289: registerFile.vhd : (30, 13): Prefix of index must be an array.
+# Error: COMP96_0077: registerFile.vhd : (30, 13): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0078: registerFile.vhd : (35, 4): Unknown identifier "regs".
+# Error: COMP96_0133: registerFile.vhd : (35, 4): Cannot find object declaration.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Compile Entity "registerFile"
+# Compile Architecture "behavioral" of Entity "registerFile"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design "ram256" has been set as active.

@@ -1,6 +1,1 @@
-acom -O3 -e 100 -work adder16 -2002  $dsn/src/adder16.vhd
-# Compile Entity "adder16"
-# Compile Architecture "behavioral" of Entity "adder16"
-# Compile Architecture "structural" of Entity "adder16"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-# Design: Design "subtractor16" has been set as active.
+# Design: Design "registerFile" has been set as active.

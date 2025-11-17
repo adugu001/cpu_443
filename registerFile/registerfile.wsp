@@ -1,0 +1,10 @@
+[COMPILESTATUS|.\src\registerFile.vhd]
+FileTimeLow=2891585738
+FileTimeHigh=31217639
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\registerFile\registerFile.adf|]
+Path=
+[Gui config]
+RunFor=100 ns

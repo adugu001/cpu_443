@@ -1,0 +1,1 @@
+-w -d C:/Aldec/My_Designs/cpu_443/register16/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/register16/projlib.cfg -work register16 -O3 -e 100 -work register16 -2008 C:/Aldec/My_Designs/cpu_443/register16/src/register16.vhd 

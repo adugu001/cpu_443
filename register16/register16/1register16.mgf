@@ -1,0 +1,30 @@
+V 000051 55 1025          1763399290486 behavioral
+(_unit VHDL(register16 0 5(behavioral 0 15))
+	(_version vf5)
+	(_time 1763399290487 2025.11.17 12:08:10)
+	(_source(\../src/register16.vhd\))
+	(_parameters tan)
+	(_code e4ebb2b7e5b3b7f2ecb2f7bfb1e2e1e3e6e7e5e7e2)
+	(_ent
+		(_time 1763399290484)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{15~downto~0}~12 0 7(_array -1((_dto i 15 i 0)))))
+		(_port(_int data_in 0 0 7(_ent(_in))))
+		(_port(_int CLK -1 0 8(_ent(_in)(_event))))
+		(_port(_int rst -1 0 9(_ent(_in))))
+		(_port(_int write -1 0 10(_ent(_in))))
+		(_port(_int data_out 0 0 11(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{15~downto~0}~13 0 18(_array -1((_dto i 15 i 0)))))
+		(_var(_int data_v 1 0 18(_prcs 0(_string \"0000000000000000"\))))
+		(_prcs
+			(BEH_PROCESS(_arch 0 0 17(_prcs(_simple)(_trgt(4))(_sens(0)(1)(2)(3)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_static
+		(33686018 33686018 33686018 33686018)
+	)
+	(_model . behavioral 1 -1)
+)

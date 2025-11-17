@@ -1,0 +1,17 @@
+acom -reorder -O3 -e 100 -work register16 -2002  $dsn/src/register16.vhd
+# Compile Entity "register16"
+# Compile Architecture "behavioral" of Entity "register16"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0025: register16.vhd : (17, 24): Identifier or string literal expected.
+# Error: COMP96_0019: register16.vhd : (19, 2): Keyword 'end' expected.
+# Error: COMP96_0016: register16.vhd : (20, 3): Design unit declaration expected.
+# Error: COMP96_0019: register16.vhd : (27, 28): Keyword 'of' expected.
+# Error: COMP96_0018: register16.vhd : (27, 28): Identifier expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work register16 -2008  $dsn/src/register16.vhd
+# Compile Entity "register16"
+# Compile Architecture "behavioral" of Entity "register16"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Design: Design "registerFile" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
