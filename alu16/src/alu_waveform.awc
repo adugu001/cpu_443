@@ -1,0 +1,229 @@
+<config>
+    <version>
+        3.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="9cebe8234fba08fe1d696320e51e2200">wave.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+                AAAADAkPAAEpRgAAEHsAABARAAAA
+|
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+                <property first="1" last="2">
+                10
+                </property>
+                <property first="19" last="19">
+                10
+                </property>
+                <property first="41" last="41">
+                10
+                </property>
+                <property first="53" last="53">
+                10
+                </property>
+                <property first="58" last="58">
+                10
+                </property>
+                <property first="70" last="71">
+                10
+                </property>
+                <property first="75" last="75">
+                10
+                </property>
+                <property first="88" last="88">
+                10
+                </property>
+                <property first="92" last="92">
+                10
+                </property>
+                <property first="268435456" last="268435456">
+                10
+                </property>
+                <property first="268435473" last="268435473">
+                10
+                </property>
+                <property first="268435490" last="268435490">
+                10
+                </property>
+                <property first="268435507" last="268435507">
+                10
+                </property>
+                <property first="268435524" last="268435524">
+                10
+                </property>
+                <property first="268435541" last="268435541">
+                10
+                </property>
+            </propclass>
+            <propclass name="mode">
+                <property first="2" last="2">
+                0
+                </property>
+                <property first="19" last="19">
+                0
+                </property>
+                <property first="41" last="41">
+                0
+                </property>
+                <property first="70" last="71">
+                0
+                </property>
+                <property first="88" last="88">
+                0
+                </property>
+                <property first="268435456" last="268435456">
+                0
+                </property>
+                <property first="268435473" last="268435473">
+                0
+                </property>
+                <property first="268435490" last="268435490">
+                0
+                </property>
+            </propclass>
+            <propclass name="notation">
+                <property first="1" last="2">
+                2
+                </property>
+                <property first="19" last="19">
+                2
+                </property>
+                <property first="41" last="41">
+                2
+                </property>
+                <property first="53" last="53">
+                2
+                </property>
+                <property first="58" last="58">
+                2
+                </property>
+                <property first="70" last="71">
+                2
+                </property>
+                <property first="75" last="75">
+                2
+                </property>
+                <property first="88" last="88">
+                2
+                </property>
+                <property first="92" last="92">
+                2
+                </property>
+                <property first="268435456" last="268435456">
+                2
+                </property>
+                <property first="268435473" last="268435473">
+                2
+                </property>
+                <property first="268435490" last="268435490">
+                2
+                </property>
+                <property first="268435507" last="268435507">
+                2
+                </property>
+                <property first="268435524" last="268435524">
+                2
+                </property>
+                <property first="268435541" last="268435541">
+                2
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+                <property first="41" last="41">
+                1
+                </property>
+                <property first="268435490" last="268435490">
+                1
+                </property>
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+                <property first="41" last="41">
+                #ff0000
+                </property>
+                <property first="268435490" last="268435490">
+                #ff0000
+                </property>
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="3066414" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="2607658" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+        </virtualnamedrows>
+        <virtualbuses>
+            <virtualbus id="1" name="Inputs" group="true" analog="false">
+                    AAAABgMAAAIRNzERAAAA
+|
+            </virtualbus>
+            <virtualbus id="40" name="Results" group="true" analog="false">
+                    AAAABwQAACkTcRdJEQAA
+|
+            </virtualbus>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+                AAAARgo88wICAAAQEgAAEAECQAEDMgAAEAdCUAAJzzxBAAAQDgsAABAbTgADCUUEeUwAAQHzwA9YAwsf        AAAQBwkAABA5AAAQeREAAAAA
+|
+        </virtualbusalias>
+        <virtualanalogalias>
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>

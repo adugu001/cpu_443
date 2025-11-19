@@ -137,7 +137,4 @@ begin
     R      <= R_sig;
     status <= V_flag & Z_flag & N_flag;
 	
-	-- TO DO!!!!! NEED DELAY OF MULT16!!!
-	-- FINAL DELAY = MAX(adder, mult, sub) + V_calc_delay + V_sel_delay = MAX(mult, 650) + 60 ns  
-	
 end architecture structural;

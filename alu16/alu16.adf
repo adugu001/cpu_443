@@ -26,8 +26,14 @@ REFRESH_FLOW=1
 FAMILY=
 [Files]
 /alu16.vhd=-1
+/alu16_tb.vhd=-1
+/alu_waveform.asdb=-1
+/alu_waveform.awc=-1
 [Files.Data]
 .\src\alu16.vhd=VHDL Source Code
+.\src\alu16_tb.vhd=VHDL Source Code
+.\src\alu_waveform.asdb=Accelerated Waveform File
+.\src\alu_waveform.awc=Accelerated Waveform Configuration
 [LocalVhdlSets]
 NetlistCompilation=1
 EnableVHDL93Key=0

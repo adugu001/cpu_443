@@ -1,15 +1,1 @@
-acom -reorder -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
-# Compile Entity "RAM256"
-# Compile Architecture "behavioral" of Entity "RAM256"
-# Incorrect order of units detected.
-# Automatic reorder and incremental recompilation of required units in progress.
-# Top-level unit(s) detected:
-# Entity => RAM256
-# Compile Architecture "behavioral" of Entity "RAM256"
-# Error: COMP96_0078: ram256.vhd : (34, 4): Unknown identifier "regs".
-# Error: COMP96_0133: ram256.vhd : (34, 4): Cannot find object declaration.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
-# Compile Entity "RAM256"
-# Compile Architecture "behavioral" of Entity "RAM256"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Design: Design "alu16" has been set as active.
