@@ -1,0 +1,24 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=instructiondecode
+[Library]
+instructiondecode=.\instructiondecode\instructiondecode.lib
+[$LibMap$]
+instructiondecode=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/instructiondecoder.vhd=-1
+/instructiondecoder.vhd=-1
+[Files.Data]
+.\src\instructiondecoder.vhd=VHDL Source Code
+.\src\instructiondecoder.vhd=VHDL Source Code
