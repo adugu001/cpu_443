@@ -87,6 +87,6 @@ name11=Waveform Files
 directory11=C:\Aldec\My_Designs\cpu_443\alu16\
 extension11=asdb;awc;asdbc;asdbe
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=alu16_tb|behavioral|0
 ShowHide=ShowTopLevel
 Selected=

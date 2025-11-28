@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="Mult_overflow">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="A_stim" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="40"/>
+							<radix value="decimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/A_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="B_stim" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="300"/>
+							<radix value="decimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/B_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="SEL_stim" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="1us"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/sel"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="Mult_overflow">
+					<stimulus name="A_stim" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="7FFF"/>
+							<radix value="hexadecimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/A_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="B_stim" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="7FFF"/>
+							<radix value="hexadecimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/B_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="SEL_ADD" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="1us"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/alu16_tb/sel"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

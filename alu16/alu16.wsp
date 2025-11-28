@@ -45,7 +45,7 @@ WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////9wIAACZAAAA/w4AAAcDAAA
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\alu16\alu16.adf|]
-Path=
+Path=/alu16_tb
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 subtractor16=0
@@ -57,8 +57,6 @@ halfAdder=0
 mult16=0
 mux16=0
 ram256=0
-[Gui config]
-RunFor=100 ns
 [COMPILESTATUS|.\src\alu16_tb.vhd]
 FileTimeLow=2811036476
 FileTimeHigh=31218036
@@ -68,8 +66,8 @@ FileTimeLow=407472402
 FileTimeHigh=31218035
 Status=Modified
 [COMPILESTATUS|.\src\alu_waveform.awc]
-FileTimeLow=18591293
-FileTimeHigh=31218039
+FileTimeLow=1038915756
+FileTimeHigh=31218043
 Status=Modified
 [CACHEDOC|Aldec.WaveFormASDB.7|.\alu16\src/alu_waveform.awc|]
 Frame=0
@@ -90,3 +88,5 @@ BookmarksLength=3
 ZoomFactor=0
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////9wIAACZAAAAfQ0AAAcDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[Gui config]
+RunFor=1000ns
