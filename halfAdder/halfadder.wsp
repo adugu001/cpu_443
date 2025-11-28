@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\halfAdder.vhd]
 FileTimeLow=299745856
 FileTimeHigh=31216436
-Status=Compiled
+Status=Modified
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 gates=0

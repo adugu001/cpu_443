@@ -1,6 +1,10 @@
-acom -O3 -e 100 -work subtractor16 -2008  $dsn/src/subtractor16.vhd
+acom -reorder -O3 -e 100 -work subtractor16 -2008  $dsn/src/subtractor16.vhd
 # Compile Entity "subtractor16"
 # Compile Architecture "behavioral" of Entity "subtractor16"
 # Compile Architecture "structural" of Entity "subtractor16"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-# Design: Design "mux16" has been set as active.
+# Top-level unit(s) detected:
+# Entity => subtractor16
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "cpu" has been set as active.

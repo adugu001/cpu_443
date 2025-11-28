@@ -1,0 +1,32 @@
+V 000051 55 1182          1764351430064 behavioral
+(_unit VHDL(instruction_fetch 0 9(behavioral 0 18))
+	(_version vf5)
+	(_time 1764351430065 2025.11.28 11:37:10)
+	(_source(\../src/instructionfetch.vhd\))
+	(_parameters tan)
+	(_code 7a7c757b7e2c2d6d7f2b68212e7c797d7e7c737c2c)
+	(_ent
+		(_time 1764351429950)
+	)
+	(_object
+		(_port(_int CLK -1 0 11(_ent(_in)(_event))))
+		(_port(_int RESET -1 0 12(_ent(_in))))
+		(_port(_int enable -1 0 13(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{7~downto~0}~12 0 14(_array -1((_dto i 7 i 0)))))
+		(_port(_int PC_out 0 0 14(_ent(_out))))
+		(_type(_int ~UNSIGNED{7~downto~0}~13 0 19(_array -1((_dto i 7 i 0)))))
+		(_sig(_int PC 1 0 19(_arch(_uni((_others(i 2)))))))
+		(_prcs
+			(PC_PROCESS(_arch 0 0 22(_prcs(_simple)(_trgt(4))(_sens(0)(1))(_read(4)(2)))))
+			(line__34(_arch 1 0 34(_assignment(_alias((PC_out)(PC)))(_trgt(3))(_sens(4)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+		(_type(_ext ieee.std_logic_1164.STD_ULOGIC(0 STD_ULOGIC)))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC_VECTOR(0 STD_LOGIC_VECTOR)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_static
+		(33686018 33686018)
+	)
+	(_model . behavioral 2 -1)
+)

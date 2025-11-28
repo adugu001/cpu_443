@@ -1,0 +1,1 @@
+-w -d C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionMemory/compile -s C:/Users/ulate/OneDrive/Desktop/cpu_443/library.cfg -j C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionMemory/projlib.cfg -work instructionMemory -O3 -e 100 -work instructionMemory -2002 C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionMemory/src/instruction_memory.vhd 

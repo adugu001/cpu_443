@@ -18,7 +18,7 @@ Path=
 [COMPILESTATUS|.\src\register16.vhd]
 FileTimeLow=3104632578
 FileTimeHigh=31217636
-Status=Compiled
+Status=Modified
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\register16\src\register16.vhd|]
 CurrentLine=35
 CurrentColumn=0

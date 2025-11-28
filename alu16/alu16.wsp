@@ -1,6 +1,6 @@
 [COMPILESTATUS|.\src\alu16.vhd]
-FileTimeLow=3978534737
-FileTimeHigh=31218038
+FileTimeLow=3324482847
+FileTimeHigh=31218872
 Status=Compiled
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\mux16\src\mux.vhd|]
 CurrentLine=35
@@ -46,22 +46,9 @@ WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////9wIAACZAAAA/w4AAAcDAAA
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\alu16\alu16.adf|]
 Path=
-[CACHESIMPLE|Aldec.SymbolsCommands.7]
-Built-in symbols=0
-subtractor16=0
-adder16=0
-alu16=0
-fullAdder=0
-gates=0
-halfAdder=0
-mult16=0
-mux16=0
-ram256=0
-[Gui config]
-RunFor=100 ns
 [COMPILESTATUS|.\src\alu16_tb.vhd]
-FileTimeLow=2811036476
-FileTimeHigh=31218036
+FileTimeLow=3324493157
+FileTimeHigh=31218872
 Status=Compiled
 [COMPILESTATUS|.\src\alu_waveform.asdb]
 FileTimeLow=407472402
@@ -90,3 +77,19 @@ BookmarksLength=3
 ZoomFactor=0
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////9wIAACZAAAAfQ0AAAcDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+ram256=0
+register16=0
+registerFile=0
+subtractor16=0
+adder16=0
+alu16=0
+fullAdder=0
+gates=0
+halfAdder=0
+instructionfetch=0
+mult16=0
+mux16=0
+[Gui config]
+RunFor=100 ns

@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=registerFile
+compile=registerfile
 [Library]
 registerFile=.\registerFile\registerFile.lib
 [$LibMap$]

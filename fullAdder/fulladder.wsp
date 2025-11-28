@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\fullAdder.vhd]
 FileTimeLow=1665018484
 FileTimeHigh=31216436
-Status=Compiled
+Status=Modified
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 gates=0

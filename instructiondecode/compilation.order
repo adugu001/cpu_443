@@ -1,1 +1,2 @@
-.\src\instructiondecoder.vhd
+.\src\instruction_decoder_tb.vhd
+.\src\instruction_decoder.vhd

@@ -1,47 +1,9 @@
-Active-HDL 15.0.260.9131 2025-11-19 12:27:35
+Active-HDL 15.0.260.9131 2025-11-28 11:43:54
 
 Elaboration top modules:
-Architecture                  behavioral(alu16_tb)
 
 
-----------------------------------------------------------------------------------------------------
-Entity       | Architecture | Library      | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------
-alu16_tb     | behavioral   | alu16        |      | 15.0.260.9131 (Windows64) | -O3 -2008
-alu16        | structural   | alu16        |      | 15.0.260.9131 (Windows64) | -O3 -2008
-adder16      | structural   | adder16      |      | 15.0.260.9131 (Windows64) | -O3
-subtractor16 | structural   | subtractor16 |      | 15.0.260.9131 (Windows64) | -O3 -2008
-mult16       | behavioral   | mult16       |      | 15.0.260.9131 (Windows64) | -O3
-mux16        | behavioral   | mux16        |      | 15.0.260.9131 (Windows64) | -O3 -2008
-mux          | behavioral   | mux16        |      | 15.0.260.9131 (Windows64) | -O3 -2008
-fullAdder    | structural   | fulladder    |      | 15.0.260.9131 (Windows64) | -O3
-halfAdder    | structural   | halfadder    |      | 15.0.260.9131 (Windows64) | -O3
-xor2         | rtl          | gates        |      | 15.0.260.9131 (Windows64) | -O3
-and2         | rtl          | gates        |      | 15.0.260.9131 (Windows64) | -O3
-or2          | rtl          | gates        |      | 15.0.260.9131 (Windows64) | -O3
-not1         | rtl          | gates        |      | 15.0.260.9131 (Windows64) | -O3
-----------------------------------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------
-VHDL Package                | Library      | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------
-standard                    | std          |      |                           | <unavailable>
-TEXTIO                      | std          |      | 15.0.260.9131 (Windows64) |  -2019
-std_logic_1164              | ieee         |      | 15.0.260.9131 (Windows64) |  -2008
-NUMERIC_STD                 | ieee         |      | 15.0.260.9131 (Windows64) |  -2008
-----------------------------------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------
-Library                     | Comment
-----------------------------------------------------------------------------------------------------
-adder16                     | None
-alu16                       | None
-fulladder                   | None
-gates                       | None
-halfadder                   | None
-ieee                        | Standard IEEE packages library
-mult16                      | None
-mux16                       | None
-std                         | Standard VHDL library
-subtractor16                | None
-----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-Active-HDL 15.0.260.9131 2025-11-17 12:15:30
+Active-HDL 15.0.260.9131 2025-11-28 11:58:48
 
 Elaboration top modules:
 Architecture                  behavioral(registerFile)
@@ -7,7 +7,7 @@ Architecture                  behavioral(registerFile)
 ----------------------------------------------------------------------------------------------------
 Entity       | Architecture | Library      | Info | Compiler Version          | Compilation Options
 ----------------------------------------------------------------------------------------------------
-registerFile | behavioral   | registerFile |      | 15.0.260.9131 (Windows64) | -O3 -2008
+registerFile | behavioral   | registerfile |      | 15.0.260.9131 (Windows64) | -O3 -2008
 ----------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------
@@ -23,6 +23,12 @@ NUMERIC_STD                 | ieee         |      | 15.0.260.9131 (Windows64) | 
 Library                     | Comment
 ----------------------------------------------------------------------------------------------------
 ieee                        | Standard IEEE packages library
-registerFile                | None
+registerfile                | None
 std                         | Standard VHDL library
 ----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+registerfile registerfile behavioral
+
+
+The performance of simulation is reduced. Version EDU Edition
