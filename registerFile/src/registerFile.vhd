@@ -16,10 +16,15 @@ entity registerFile is
 end registerFile;
 
 architecture behavioral of registerFile is	
-type storage is array (0 to 7) of std_logic_vector(15 downto 0);
+    type storage is array (0 to 7) of std_logic_vector(15 downto 0);
+    
+    -- Use SIGNAL (not variable) so registers persist between clock cycles
+    -- Initialize all registers to zero
+    signal regs : storage := (others => (others => '0'));
+    
 begin
 	BEH_PROCESS : process(all)
-	variable regs : STORAGE;
+
 	variable rsData, rtData : STD_LOGIC_VECTOR(15 downto 0); 
 	variable rs_int, rt_int, rd_int : INTEGER;	
 	begin	   
@@ -32,12 +37,12 @@ begin
 		
 		-- Write to appropriate register
 		if (clk'event) and (clk = '1') and (write = '1') then
-			regs(rd_int) := data_in; 
+			regs(rd_int) <= data_in; 
 		end if;	  
 		
 		-- Push data out
-		rs_out <= rsData;
-		rt_out <= rtData;
+    rs_out <= regs(to_integer(unsigned(rs_num)));
+    rt_out <= regs(to_integer(unsigned(rt_num)));
 					
 	end process;			
 end architecture behavioral;  
