@@ -44,10 +44,9 @@ begin
     -- Extract register fields for R-type (bits 11-8, 7-4, 3-0)
     rd_addr <= instruction(11 downto 8);   -- c field (destination)
     rs_addr <= instruction(7 downto 4);    -- a field (source A)
-    rt_addr <= instruction(3 downto 0);    -- b field (source B)
+    rt_addr <= instruction(11 downto 8) when (S2='1' and S1='1' and S0='0') else instruction(3 downto 0);    -- b field (source B)
     
     -- For I-type, rd is in bits 11-8, immediate in bits 7-0
-    -- (rd_addr already extracts bits 11-9, but for I-type we need 11-8)
     -- We'll handle this in the processor integration
     immediate <= instruction(7 downto 0);
     

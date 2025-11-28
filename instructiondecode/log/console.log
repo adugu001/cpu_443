@@ -1,14 +1,12 @@
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder_tb"
-# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Error: COMP96_0367: instruction_decoder_tb.vhd : (53, 32): Improper array length (3). Expected length is 4.
-# Error: COMP96_0367: instruction_decoder_tb.vhd : (54, 32): Improper array length (3). Expected length is 4.
-# Error: COMP96_0367: instruction_decoder_tb.vhd : (55, 32): Improper array length (3). Expected length is 4.
+acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
 # Compile Entity "instruction_decoder"
 # Compile Architecture "structural" of Entity "instruction_decoder"
-# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd
-# Compile Entity "instruction_decoder_tb"
-# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Error: COMP96_0393: instruction_decoder.vhd : (47, 46): Cannot read output : "mem_write".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
+# Compile Entity "instruction_decoder"
+# Compile Architecture "structural" of Entity "instruction_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 # Design: Design "cpu" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

@@ -34,7 +34,7 @@ ram256=0
 registerfile=1
 register16=0
 instructionfetch=0
-instructiondecode=0
+instructiondecode=1
 cpu=1
 instructionmemory=0
 [Settings]
