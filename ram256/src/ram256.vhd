@@ -14,10 +14,16 @@ entity RAM256 is
 end RAM256;
 
 architecture behavioral of RAM256 is	
-type storage is array (0 to 255) of std_logic_vector(15 downto 0);
+    type storage is array (0 to 255) of std_logic_vector(15 downto 0);
+    
+    -- Use SIGNAL (not variable) so memory persists between clock cycles
+    -- Initialize all memory locations to zero
+    signal memory : storage := (others => (others => '0'));
 begin
 	BEH_PROCESS : process(all)
-	variable memory : STORAGE;
+	    -- Define memory storage type
+
+    
 	variable din_v, dout_v : STD_LOGIC_VECTOR(15 downto 0); 
 	variable rd_add_int, wr_add_int : INTEGER;	
 	begin	   
@@ -31,11 +37,11 @@ begin
 		
 		-- Write to appropriate register
 		if (clk'event) and (clk = '1') and (write = '1') then
-			memory(wr_add_int) := data_in; 
+			memory(wr_add_int) <= data_in; 
 		end if;	  
 		
 		-- Push data out
-		data_out <= dout_v;
+		data_out <= memory(to_integer(unsigned(dout_v)));
 					
 	end process;			
 end architecture behavioral;  

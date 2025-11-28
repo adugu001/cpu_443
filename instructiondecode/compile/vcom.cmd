@@ -1,0 +1,1 @@
+-w -d C:/Users/ulate/OneDrive/Desktop/cpu_443/instructiondecode/compile -s C:/Users/ulate/OneDrive/Desktop/cpu_443/library.cfg -j C:/Users/ulate/OneDrive/Desktop/cpu_443/instructiondecode/projlib.cfg -work instructiondecode -O3 -e 100 -work instructiondecode -2002 C:/Users/ulate/OneDrive/Desktop/cpu_443/instructiondecode/src/instruction_decoder.vhd 

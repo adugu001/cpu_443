@@ -1,8 +1,15 @@
-acom -O3 -e 100 -work mux16 -2008  $dsn/src/mux16.vhd $dsn/src/mux.vhd
+acom -reorder -O3 -e 100 -work mux16 -2008  $dsn/src/mux16.vhd $dsn/src/mux.vhd
 # Compile Entity "mux16"
 # Compile Architecture "behavioral" of Entity "mux16"
 # Compile Architecture "structural" of Entity "mux16"
 # Compile Entity "mux"
 # Compile Architecture "behavioral" of Entity "mux"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
-# Design: Design "alu16" has been set as active.
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => mux16
+# Compile Architecture "structural" of Entity "mux16"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "ram256" has been set as active.

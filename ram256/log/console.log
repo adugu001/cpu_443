@@ -1,1 +1,18 @@
-# Design: Design "alu16" has been set as active.
+acom -reorder -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
+# Compile Entity "RAM256"
+# Compile Architecture "behavioral" of Entity "RAM256"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => RAM256
+# Compile Architecture "behavioral" of Entity "RAM256"
+# Error: COMP96_0078: ram256.vhd : (44, 15): Unknown identifier "regs".
+# Error: COMP96_0133: ram256.vhd : (44, 15): Cannot find object declaration.
+# Error: COMP96_0289: ram256.vhd : (44, 15): Prefix of index must be an array.
+# Error: COMP96_0077: ram256.vhd : (44, 15): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
+# Compile Entity "RAM256"
+# Compile Architecture "behavioral" of Entity "RAM256"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Design: Design "registerFile" has been set as active.

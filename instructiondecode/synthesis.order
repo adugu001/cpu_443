@@ -1,0 +1,3 @@
+i<>.\src\instructiondecode.vhd
+i<>.\src\instruction_decoder_tb.vhd
+i<>.\src\instruction_decoder.vhd

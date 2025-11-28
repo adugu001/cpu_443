@@ -1,0 +1,1 @@
+-w -d C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionfetch/compile -s C:/Users/ulate/OneDrive/Desktop/cpu_443/library.cfg -j C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionfetch/projlib.cfg -work instructionfetch -reorder -O3 -e 100 -work instructionfetch -2002 C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionfetch/src/instructionfetch.vhd 

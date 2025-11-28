@@ -17,11 +17,11 @@ FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
 [Files]
-/mux16.vhd=-1
 /mux.vhd=-1
+/mux16.vhd=-1
 [Files.Data]
-.\src\mux16.vhd=VHDL Source Code
 .\src\mux.vhd=VHDL Source Code
+.\src\mux16.vhd=VHDL Source Code
 [LocalVhdlSets]
 NetlistCompilation=1
 EnableVHDL93Key=0

@@ -1,1 +1,10 @@
-# Design: Design "registerFile" has been set as active.
+acom -reorder -O3 -e 100 -work adder16 -2002  $dsn/src/adder16.vhd
+# Compile Entity "adder16"
+# Compile Architecture "behavioral" of Entity "adder16"
+# Compile Architecture "structural" of Entity "adder16"
+# Top-level unit(s) detected:
+# Entity => adder16
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design "cpu" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

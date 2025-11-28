@@ -1,0 +1,35 @@
+[COMPILESTATUS|.\src\cpu.vhd]
+FileTimeLow=749781730
+FileTimeHigh=31219854
+Status=Compiled
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\cpu\cpu.adf|]
+Path=
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+mult16=0
+mux16=0
+ram256=0
+register16=0
+registerFile=0
+subtractor16=0
+instructionMemory=0
+adder16=0
+alu16=0
+cpu=0
+fullAdder=0
+gates=0
+halfAdder=0
+instructiondecode=0
+instructionfetch=0
+[COMPILESTATUS|.\src\cpu_tb.vhd]
+FileTimeLow=1238510827
+FileTimeHigh=31219854
+Status=Modified
+[COMPILESTATUS|.\src\cpu_tb.vhd]
+FileTimeLow=2670663673
+FileTimeHigh=31219856
+Status=Compiled
+[Gui config]
+RunFor=2000 ns

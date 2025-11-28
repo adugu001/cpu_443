@@ -1,29 +1,47 @@
-acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+acom -reorder -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
 # Compile Entity "registerFile"
 # Compile Architecture "behavioral" of Entity "registerFile"
-# Error: COMP96_0078: registerFile.vhd : (31, 3): Unknown identifier "data_out".
-# Error: COMP96_0133: registerFile.vhd : (31, 3): Cannot find object declaration.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Top-level unit(s) detected:
+# Entity => registerFile
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -reorder -O3 -e 100 -work registerfile -2008  $dsn/src/registerFile.vhd
 # Compile Entity "registerFile"
 # Compile Architecture "behavioral" of Entity "registerFile"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
+# Top-level unit(s) detected:
+# Entity => registerFile
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -reorder -O3 -e 100 -work registerfile -2008  $dsn/src/registerFile.vhd
 # Compile Entity "registerFile"
 # Compile Architecture "behavioral" of Entity "registerFile"
-# Error: COMP96_0078: registerFile.vhd : (28, 13): Unknown identifier "regs".
-# Error: COMP96_0133: registerFile.vhd : (28, 13): Cannot find object declaration.
-# Error: COMP96_0289: registerFile.vhd : (28, 13): Prefix of index must be an array.
-# Error: COMP96_0077: registerFile.vhd : (28, 13): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
-# Error: COMP96_0078: registerFile.vhd : (30, 13): Unknown identifier "regs".
-# Error: COMP96_0133: registerFile.vhd : (30, 13): Cannot find object declaration.
-# Error: COMP96_0289: registerFile.vhd : (30, 13): Prefix of index must be an array.
-# Error: COMP96_0077: registerFile.vhd : (30, 13): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
-# Error: COMP96_0078: registerFile.vhd : (35, 4): Unknown identifier "regs".
-# Error: COMP96_0133: registerFile.vhd : (35, 4): Cannot find object declaration.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work registerFile -2008  $dsn/src/registerFile.vhd
-# Compile Entity "registerFile"
-# Compile Architecture "behavioral" of Entity "registerFile"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-# Design: Design "ram256" has been set as active.
+# Top-level unit(s) detected:
+# Entity => registerFile
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+registerfile registerfile behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5566 kB (elbread=427 elab2=4999 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\ulate\OneDrive\Desktop\cpu_443\registerFile\src\wave.asdb
+#  11:58 AM, Friday, November 28, 2025
+#  Simulation has been initialized
+# Design: Design "cpu" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

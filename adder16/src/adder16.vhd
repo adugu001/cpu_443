@@ -18,7 +18,7 @@ architecture behavioral of adder16 is
 begin
     beh_process: process (A, B, c_in)
 	    variable A_int, B_int, c_int, R_int : INTEGER;
-		variable R_v : STD_LOGIC_VECTOR(16 downto 0);
+		variable R_v : STD_LOGIC_VECTOR(16 downto 0) := (others => '0');
     begin	
 		--convert to int
         A_int := TO_INTEGER(UNSIGNED(A));
@@ -36,7 +36,7 @@ begin
 end architecture behavioral;	   
 
 architecture structural of adder16 is
-signal CARRY : STD_LOGIC_VECTOR(16 downto 0);  	   --to feed c_in to generate
+signal CARRY : STD_LOGIC_VECTOR(16 downto 0)  := (others => '0');  	   --to feed c_in to generate
 --fa crit path = 40ns 
 --16 full adders in series
 --crit path = 16*40ns = 640ns

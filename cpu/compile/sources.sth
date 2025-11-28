@@ -1,0 +1,20 @@
+[Files List]
+C:/Aldec/Active-HDL-15-x64/vlib/std/src/standard.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/std/src/textio.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_1164.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_1164-body.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/numeric_std.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/numeric_std-body.vhdl=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/adder16/src/adder16.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/mux16/src/mux.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/mux16/src/mux16.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/mult16/src/mult16.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/subtractor16/src/subtractor16.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/ram256/src/ram256.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/alu16/src/alu16.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/registerFile/src/registerFile.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/instructiondecode/src/instruction_decoder.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionMemory/src/instruction_memory.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/instructionfetch/src/instructionfetch.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/src/cpu.vhd=S
+C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/src/cpu_tb.vhd=S
