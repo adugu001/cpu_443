@@ -6,28 +6,94 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="9cebe8234fba0bf429695cd648000b00">andrewWF.asdb</database>
+        <database id="9cebe8234fba40082a6964c597003400">wave.asdb</database>
     </databases>
     <gridshown/>
     <signallists>
         <signallist id="0">
-                AAAAKAAWzMAAAAAQAQAAABA9qhIAEAkvdAAACRMBPwEDAQcQwAGqARcxfBMAEBEAAAAA
+                AAAAGAAGxAwAAAAQAT4BdxE/ZwEAEDoUAMeqEkMSEQAA
 |
         </signallist>
     </signallists>
     <propertybases>
         <propertybase id="0">
             <propclass name="radix">
+                <property first="60" last="62">
+                10
+                </property>
+                <property first="320" last="321">
+                10
+                </property>
+                <property first="339" last="340">
+                10
+                </property>
+                <property first="4751" last="4752">
+                10
+                </property>
+                <property first="268440305" last="268440307">
+                10
+                </property>
+                <property first="268440399" last="268440400">
+                10
+                </property>
             </propclass>
             <propclass name="mode">
             </propclass>
             <propclass name="notation">
+                <property first="60" last="62">
+                2
+                </property>
+                <property first="320" last="321">
+                2
+                </property>
+                <property first="339" last="340">
+                2
+                </property>
+                <property first="4751" last="4752">
+                2
+                </property>
+                <property first="268440305" last="268440307">
+                2
+                </property>
+                <property first="268440399" last="268440400">
+                2
+                </property>
             </propclass>
             <propclass name="reverse">
             </propclass>
             <propclass name="bold">
+                <property first="1" last="1">
+                1
+                </property>
+                <property first="59" last="59">
+                1
+                </property>
+                <property first="252" last="252">
+                1
+                </property>
+                <property first="4658" last="4658">
+                1
+                </property>
+                <property first="4694" last="4694">
+                1
+                </property>
             </propclass>
             <propclass name="row_height">
+                <property first="1" last="1">
+                30
+                </property>
+                <property first="59" last="59">
+                30
+                </property>
+                <property first="252" last="252">
+                30
+                </property>
+                <property first="4658" last="4658">
+                30
+                </property>
+                <property first="4694" last="4694">
+                30
+                </property>
             </propclass>
             <propclass name="color">
             </propclass>
@@ -51,7 +117,7 @@
     </propertybases>
     <timebases>
         <timebase id="0">
-            <time start_time="0" end_time="2048154" />
+            <time start_time="0" end_time="2048152" />
         </timebase>
     </timebases>
     <prefbases>
@@ -64,7 +130,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="978124" label="Cursor 1" locked="0" />
+            <cursor value="1529550" label="Cursor 1" locked="0" />
         </cursors>
     </cursorbases>
     <measurementbases>
@@ -74,27 +140,35 @@
         </comments>
     </commentbases>
     <views>
-        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
     </views>
     <virtualsources>
         <virtualnamedrows>
         </virtualnamedrows>
         <virtualbuses>
-            <virtualbus id="1" name="ALU" group="true" analog="false">
-                    AAAACgcAAAIRNwEDAQw+EQAA
+            <virtualbus id="1" name="Decoder" group="true" analog="false">
+                    AAAAGQAHAAACAQcBAwEfBAAAPQcNHwEDAQ8AAAEDLxEAAAAA
 |
             </virtualbus>
-            <virtualbus id="60" name="RF" group="true" analog="false">
-                    AAAAFgAEAAA9+xEMBC8EDEAB8QEEHAQDAT89AREAAAAA
+            <virtualbus id="59" name="RF" group="true" analog="false">
+                    AAAADQoAADwBAwFvMRMBAABmEQAA
+|
+            </virtualbus>
+            <virtualbus id="252" name="DataMem" group="true" analog="false">
+                    AAAAEA0QAP3zARk3EXMRBxAAAUABEQAA
+|
+            </virtualbus>
+            <virtualbus id="4694" name="ALU" group="true" analog="false">
+                    AAAADAlAAVcSPxEDAQf8lRIRAAAA
 |
             </virtualbus>
         </virtualbuses>
         <virtualalias>
-                AAAALQ0//yQAAAAQAQAAEAAAABAD3AAABDMBABD3AQAQ/AD0AQAQ9QEAEPYAABARAAAA
+                AAAAtQU//wL2EgAQ90wACvYSABDxEgAQ8hIAEPPeAP//ZAIC/hIAEMxEAgUSEwAQExMAEHwACBETABAe        EwAQ//8fxAFkAmQDKoUAFoQEAhATABDNzQjP3AB9AYFWDm4BbAgCTwAAEBxdDhtVAwRcEAIpAQAQXVUD        Xk0TX0wCC/wAXhIAEF0SABAzAAAQEQAA
 |
         </virtualalias>
         <virtualbusalias>
-                AAAAqQo88wIAAAAQEAAAEAEAQAECMAAAEARjAc88DewCcQMGVAMGEPkAABAD888DWQATcANtAgxgAQAD        bxIAEGoSABA88wEpEgAQGRIAEB8qQAMDKQAAEAdMVwHPPE9UAAMP/xMAEA9ABAAEAdcBABDSAQAQAfPP        sRMAEKwTABAB0UIB1BNkDAACAQAQwwEAED0AD90BABDNAQAQLQERAAAA
+                AAAAzwADPPMH/hIAEO4SABAPEhMAEBETABAHYwHPPC5YAQsBMhMAEDYTABADPhMAEHMBAfPPfAFwAwAE        DPoAABCKAAAQH7AAABCAAAAQPPMBms4CAk9AAwPHAAAQBkZPC888tnEIwlEI2ngKYQHKSA0FP/PPwBMA        ENBsAgccEgAQbBIAEAN8wAEBPPMH71EI71AGAwJVEgAQZUIJD3tTAM89a0gEAwRbEgAQWFgBCP+rEgAQ        uxIAEIUSEQAA
 |
         </virtualbusalias>
         <virtualanalogalias>

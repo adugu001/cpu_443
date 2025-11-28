@@ -1,5 +1,7 @@
 acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
 # Compile Entity "RAM256"
 # Compile Architecture "behavioral" of Entity "RAM256"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-# Design: Design "register16" has been set as active.
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Design: Design "cpu" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

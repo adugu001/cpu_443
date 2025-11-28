@@ -41,7 +41,7 @@ begin
 		end if;	  
 		
 		-- Push data out
-		data_out <= memory(to_integer(unsigned(dout_v)));
+		data_out <= dout_v;
 					
 	end process;			
 end architecture behavioral;  
