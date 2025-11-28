@@ -1,3 +1,8 @@
-# Design: Design "adder16" has been set as active.
+acom -O3 -e 100 -work fullAdder -2002  $dsn/src/fullAdder.vhd
+# Compile Entity "fullAdder"
+# Compile Architecture "behavioral" of Entity "fullAdder"
+# Compile Architecture "structural" of Entity "fullAdder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Design: Design "gates" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].

@@ -55,7 +55,7 @@ I 000051 55 802           1762883623415 structural
 	)
 	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
 )
-V 000051 55 734           1762884340864 behavioral
+I 000051 55 734           1762884340864 behavioral
 (_unit VHDL(halfadder 0 7(behavioral 0 16))
 	(_version vf5)
 	(_time 1762884340865 2025.11.11 13:05:40)
@@ -79,13 +79,70 @@ V 000051 55 734           1762884340864 behavioral
 	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
 	(_model . behavioral 2 -1)
 )
-V 000051 55 802           1762884340868 structural
+I 000051 55 802           1762884340868 structural
 (_unit VHDL(halfadder 0 7(structural 0 22))
 	(_version vf5)
 	(_time 1762884340869 2025.11.11 13:05:40)
 	(_source(\../src/halfAdder.vhd\))
 	(_parameters tan)
 	(_code 5b545558080c5c4d5c584a010e5d5f5d5e5c595d53)
+	(_ent
+		(_time 1762883623393)
+	)
+	(_inst uut_xor1 0 24(_ent gates xor2 rtl)
+		(_port
+			((a_in)(a_in))
+			((b_in)(b_in))
+			((z_out)(sum))
+		)
+	)
+	(_inst uut_and1 0 26(_ent gates and2 rtl)
+		(_port
+			((a_in)(a_in))
+			((b_in)(b_in))
+			((z_out)(c_out))
+		)
+	)
+	(_object
+		(_port(_int a_in -1 0 9(_ent(_in))))
+		(_port(_int b_in -1 0 10(_ent(_in))))
+		(_port(_int sum -1 0 11(_ent(_out))))
+		(_port(_int c_out -1 0 12(_ent(_out))))
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+)
+V 000051 55 734           1764354365824 behavioral
+(_unit VHDL(halfadder 0 7(behavioral 0 16))
+	(_version vf5)
+	(_time 1764354365825 2025.11.28 13:26:05)
+	(_source(\../src/halfAdder.vhd\))
+	(_parameters tan)
+	(_code a0f7abf7a1f7a7b6a7a5b1faf5a6a4a6a5a7a2a6a8)
+	(_ent
+		(_time 1762883623393)
+	)
+	(_object
+		(_port(_int a_in -1 0 9(_ent(_in))))
+		(_port(_int b_in -1 0 10(_ent(_in))))
+		(_port(_int sum -1 0 11(_ent(_out))))
+		(_port(_int c_out -1 0 12(_ent(_out))))
+		(_prcs
+			(line__18(_arch 0 0 18(_assignment(_trgt(2))(_sens(0)(1)))))
+			(line__19(_arch 1 0 19(_assignment(_trgt(3))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . behavioral 2 -1)
+)
+V 000051 55 802           1764354365840 structural
+(_unit VHDL(halfadder 0 7(structural 0 22))
+	(_version vf5)
+	(_time 1764354365841 2025.11.28 13:26:05)
+	(_source(\../src/halfAdder.vhd\))
+	(_parameters tan)
+	(_code b0e7bbe4b1e7b7a6b7b3a1eae5b6b4b6b5b7b2b6b8)
 	(_ent
 		(_time 1762883623393)
 	)

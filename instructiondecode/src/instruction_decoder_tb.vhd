@@ -15,9 +15,9 @@ architecture behavioral of instruction_decoder_tb is
         port (
             instruction     : in  STD_LOGIC_VECTOR(15 downto 0);
             opcode          : out STD_LOGIC_VECTOR(2 downto 0);
-            rs_addr         : out STD_LOGIC_VECTOR(2 downto 0);
-            rt_addr         : out STD_LOGIC_VECTOR(2 downto 0);
-            rd_addr         : out STD_LOGIC_VECTOR(2 downto 0);
+            rs_addr         : out STD_LOGIC_VECTOR(3 downto 0);
+            rt_addr         : out STD_LOGIC_VECTOR(3 downto 0);
+            rd_addr         : out STD_LOGIC_VECTOR(3 downto 0);
             immediate       : out STD_LOGIC_VECTOR(7 downto 0);
             is_r_type       : out STD_LOGIC;
             is_i_type       : out STD_LOGIC;
@@ -32,9 +32,9 @@ architecture behavioral of instruction_decoder_tb is
     -- Signals
     signal instruction      : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
     signal opcode           : STD_LOGIC_VECTOR(2 downto 0);
-    signal rs_addr          : STD_LOGIC_VECTOR(2 downto 0);
-    signal rt_addr          : STD_LOGIC_VECTOR(2 downto 0);
-    signal rd_addr          : STD_LOGIC_VECTOR(2 downto 0);
+    signal rs_addr          : STD_LOGIC_VECTOR(3 downto 0);
+    signal rt_addr          : STD_LOGIC_VECTOR(3 downto 0);
+    signal rd_addr          : STD_LOGIC_VECTOR(3 downto 0);
     signal immediate        : STD_LOGIC_VECTOR(7 downto 0);
     signal is_r_type        : STD_LOGIC;
     signal is_i_type        : STD_LOGIC;

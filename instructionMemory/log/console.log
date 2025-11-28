@@ -1,17 +1,5 @@
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: Flow Manager: Not Defined
-# Design: Design "instructionMemory" has been set as active.
-acom -reorder -O3 -e 100 -work instructionMemory -2002  $dsn/src/instruction_memory.vhd
-# Compile Entity "instruction_memory"
-# Compile Architecture "behavioral" of Entity "instruction_memory"
-# Top-level unit(s) detected:
-# Entity => instruction_memory
-# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
 acom -O3 -e 100 -work instructionMemory -2002  $dsn/src/instruction_memory.vhd
 # Compile Entity "instruction_memory"
 # Compile Architecture "behavioral" of Entity "instruction_memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-# Design: Design "cpu" has been set as active.
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Design: Design "mult16" has been set as active.

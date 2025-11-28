@@ -1,13 +1,9 @@
-acom -reorder -O3 -e 100 -work instructionfetch -2002  $dsn/src/instructionfetch.vhd
+acom -O3 -e 100 -work instructionfetch -2002  $dsn/src/instructionfetch.vhd
 # Compile Entity "instruction_fetch"
 # Compile Architecture "behavioral" of Entity "instruction_fetch"
-# Top-level unit(s) detected:
-# Entity => instruction_fetch
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+# Design: Design "instructionMemory" has been set as active.
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Design: Design "registerFile" has been set as active.
-# ELBREAD: Elaboration process.
-# ELBREAD: Error: Architecture 'behavioral' of entity 'registerfile' not found in library 'registerfile'.
+# ELBREAD: Error: Architecture 'behavioral' of entity 'instruction_memory' not found in library 'instructionmemory'.
 # ELBREAD: Error: Elaboration process completed with errors.
 # Design: Error: Elaboration failed

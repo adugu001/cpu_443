@@ -5,9 +5,9 @@ use ieee.numeric_std.all;
 entity registerFile is
     port (	
 		data_in	 : in STD_LOGIC_VECTOR(15 downto 0);
-		rs_num   : in STD_LOGIC_VECTOR(2 downto 0);	 
-		rt_num	 : in STD_LOGIC_VECTOR(2 downto 0);	
-		rd_num	 : in STD_LOGIC_VECTOR(2 downto 0);
+		rs_num   : in STD_LOGIC_VECTOR(3 downto 0);	 
+		rt_num	 : in STD_LOGIC_VECTOR(3 downto 0);	
+		rd_num	 : in STD_LOGIC_VECTOR(3 downto 0);
         CLK 	 : in STD_LOGIC;   --Rising edge trigger
         write 	 : in STD_LOGIC;   --active high ('1' asserts write)
         rs_out   : out STD_LOGIC_VECTOR(15 downto 0);
@@ -29,11 +29,11 @@ begin
 	variable rs_int, rt_int, rd_int : INTEGER;	
 	begin	   
 		--Get indices and read reg data
-		rs_int := TO_INTEGER(UNSIGNED(rs_num));
+		rs_int := TO_INTEGER(UNSIGNED(rs_num(2 downto 0)));
 		rsData := regs(rs_int);
-		rt_int := TO_INTEGER(UNSIGNED(rt_num));	
+		rt_int := TO_INTEGER(UNSIGNED(rt_num(2 downto 0)));	
 		rtData := regs(rt_int);
-		rd_int := TO_INTEGER(UNSIGNED(rd_num));	
+		rd_int := TO_INTEGER(UNSIGNED(rd_num(2 downto 0)));	
 		
 		-- Write to appropriate register
 		if (clk'event) and (clk = '1') and (write = '1') then
@@ -41,8 +41,8 @@ begin
 		end if;	  
 		
 		-- Push data out
-    rs_out <= regs(to_integer(unsigned(rs_num)));
-    rt_out <= regs(to_integer(unsigned(rt_num)));
+    rs_out <= regs(rs_int);
+    rt_out <= regs(rt_int);
 					
 	end process;			
 end architecture behavioral;  

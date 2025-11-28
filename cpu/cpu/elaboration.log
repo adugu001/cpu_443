@@ -1,4 +1,4 @@
-Active-HDL 15.0.260.9131 2025-11-28 12:09:11
+Active-HDL 15.0.260.9131 2025-11-28 14:58:43
 
 Elaboration top modules:
 Architecture                  behavioral(cpu_tb)
@@ -13,13 +13,8 @@ instruction_fetch   | behavioral   | instructionfetch  |      | 15.0.260.9131 (W
 instruction_memory  | behavioral   | instructionmemory |      | 15.0.260.9131 (Windows64) | -O3
 instruction_decoder | structural   | instructiondecode |      | 15.0.260.9131 (Windows64) | -O3
 registerFile        | behavioral   | registerfile      |      | 15.0.260.9131 (Windows64) | -O3 -2008
-alu16               | structural   | alu16             |      | 15.0.260.9131 (Windows64) | -O3 -2008
+alu16               | behavioral   | alu16             |      | 15.0.260.9131 (Windows64) | -O3 -2008
 RAM256              | behavioral   | ram256            |      | 15.0.260.9131 (Windows64) | -O3 -2008
-adder16             | structural   | adder16           |      | 15.0.260.9131 (Windows64) | -O3
-subtractor16        | structural   | subtractor16      |      | 15.0.260.9131 (Windows64) | -O3 -2008
-mult16              | behavioral   | mult16            |      | 15.0.260.9131 (Windows64) | -O3
-mux16               | behavioral   | mux16             |      | 15.0.260.9131 (Windows64) | -O3 -2008
-mux                 | behavioral   | mux16             |      | 15.0.260.9131 (Windows64) | -O3 -2008
 ----------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------
@@ -34,23 +29,13 @@ NUMERIC_STD                        | ieee              |      | 15.0.260.9131 (W
 ----------------------------------------------------------------------------------------------------------------
 Library                            | Comment
 ----------------------------------------------------------------------------------------------------------------
-adder16                            | None
 alu16                              | None
 cpu                                | None
 ieee                               | Standard IEEE packages library
 instructiondecode                  | None
 instructionfetch                   | None
 instructionmemory                  | None
-mult16                             | None
-mux16                              | None
 ram256                             | None
 registerfile                       | None
 std                                | Standard VHDL library
-subtractor16                       | None
 ----------------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+cpu_tb cpu_tb behavioral
-
-
-The performance of simulation is reduced. Version EDU Edition

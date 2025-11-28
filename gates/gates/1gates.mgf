@@ -172,7 +172,7 @@ I 000044 55 602           1762883536901 rtl
 	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 583           1762884337263 rtl
+I 000044 55 583           1762884337263 rtl
 (_unit VHDL(and2 0 4(rtl 0 12))
 	(_version vf5)
 	(_time 1762884337264 2025.11.11 13:05:37)
@@ -194,7 +194,7 @@ V 000044 55 583           1762884337263 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 540           1762884337312 rtl
+I 000044 55 540           1762884337312 rtl
 (_unit VHDL(buf1 0 4(rtl 0 11))
 	(_version vf5)
 	(_time 1762884337313 2025.11.11 13:05:37)
@@ -215,7 +215,7 @@ V 000044 55 540           1762884337312 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 585           1762884337333 rtl
+I 000044 55 585           1762884337333 rtl
 (_unit VHDL(nand2 0 4(rtl 0 12))
 	(_version vf5)
 	(_time 1762884337334 2025.11.11 13:05:37)
@@ -237,7 +237,7 @@ V 000044 55 585           1762884337333 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 583           1762884337355 rtl
+I 000044 55 583           1762884337355 rtl
 (_unit VHDL(nor2 0 4(rtl 0 12))
 	(_version vf5)
 	(_time 1762884337356 2025.11.11 13:05:37)
@@ -259,7 +259,7 @@ V 000044 55 583           1762884337355 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 540           1762884337397 rtl
+I 000044 55 540           1762884337397 rtl
 (_unit VHDL(not1 0 4(rtl 0 11))
 	(_version vf5)
 	(_time 1762884337398 2025.11.11 13:05:37)
@@ -280,7 +280,7 @@ V 000044 55 540           1762884337397 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 581           1762884337430 rtl
+I 000044 55 581           1762884337430 rtl
 (_unit VHDL(or2 0 4(rtl 0 12))
 	(_version vf5)
 	(_time 1762884337431 2025.11.11 13:05:37)
@@ -302,7 +302,7 @@ V 000044 55 581           1762884337430 rtl
 	(_use(ieee(std_logic_1164))(std(standard)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 604           1762884337468 rtl
+I 000044 55 604           1762884337468 rtl
 (_unit VHDL(xnor2 0 5(rtl 0 13))
 	(_version vf5)
 	(_time 1762884337469 2025.11.11 13:05:37)
@@ -324,13 +324,187 @@ V 000044 55 604           1762884337468 rtl
 	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
 	(_model . rtl 1 -1)
 )
-V 000044 55 602           1762884337508 rtl
+I 000044 55 602           1762884337508 rtl
 (_unit VHDL(xor2 0 5(rtl 0 13))
 	(_version vf5)
 	(_time 1762884337509 2025.11.11 13:05:37)
 	(_source(\../src/xor2.vhd\))
 	(_parameters tan)
 	(_code 3b343a3e3f6d6d28383c23613c3c3938393c333d6d)
+	(_ent
+		(_time 1762883536898)
+	)
+	(_object
+		(_port(_int a_in -1 0 7(_ent(_in))))
+		(_port(_int b_in -1 0 8(_ent(_in))))
+		(_port(_int z_out -1 0 9(_ent(_out))))
+		(_prcs
+			(line__16(_arch 0 0 16(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 583           1764354361891 rtl
+(_unit VHDL(and2 0 4(rtl 0 12))
+	(_version vf5)
+	(_time 1764354361892 2025.11.28 13:26:01)
+	(_source(\../src/and2.vhd\))
+	(_parameters tan)
+	(_code 3f303a3a3c686f2c3d6c2e653b393b3c3d393e396a)
+	(_ent
+		(_time 1762883536698)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int b_in -1 0 7(_ent(_in))))
+		(_port(_int z_out -1 0 8(_ent(_out))))
+		(_prcs
+			(line__14(_arch 0 0 14(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 540           1764354361947 rtl
+(_unit VHDL(buf1 0 4(rtl 0 11))
+	(_version vf5)
+	(_time 1764354361948 2025.11.28 13:26:01)
+	(_source(\../src/buf1.vhd\))
+	(_parameters tan)
+	(_code 7d727b7d2c2a2f6e7c2f6f26297b7b7e7c7b7f7a78)
+	(_ent
+		(_time 1762883536724)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int z_out -1 0 7(_ent(_out))))
+		(_prcs
+			(line__13(_arch 0 0 13(_assignment(_trgt(1))(_sens(0)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 585           1764354361998 rtl
+(_unit VHDL(nand2 0 4(rtl 0 12))
+	(_version vf5)
+	(_time 1764354361999 2025.11.28 13:26:01)
+	(_source(\../src/nand2.vhd\))
+	(_parameters tan)
+	(_code aca3fdfbfefbadbaa8fabef6a8aaadaaf9aaa8afae)
+	(_ent
+		(_time 1762883536761)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int b_in -1 0 7(_ent(_in))))
+		(_port(_int z_out -1 0 8(_ent(_out))))
+		(_prcs
+			(line__14(_arch 0 0 14(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 583           1764354362049 rtl
+(_unit VHDL(nor2 0 4(rtl 0 12))
+	(_version vf5)
+	(_time 1764354362050 2025.11.28 13:26:02)
+	(_source(\../src/nor2.vhd\))
+	(_parameters tan)
+	(_code dbd48a89df8d8dc8d9889e81dcdcd9d8d9dd8edd8d)
+	(_ent
+		(_time 1762883536796)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int b_in -1 0 7(_ent(_in))))
+		(_port(_int z_out -1 0 8(_ent(_out))))
+		(_prcs
+			(line__14(_arch 0 0 14(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 540           1764354362103 rtl
+(_unit VHDL(not1 0 4(rtl 0 11))
+	(_version vf5)
+	(_time 1764354362104 2025.11.28 13:26:02)
+	(_source(\../src/not1.vhd\))
+	(_parameters tan)
+	(_code 1a154a1d1d4c4a091b485f401d1d1e191b1c4f1c4c)
+	(_ent
+		(_time 1762883536809)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int z_out -1 0 7(_ent(_out))))
+		(_prcs
+			(line__13(_arch 0 0 13(_assignment(_trgt(1))(_sens(0)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 581           1764354362161 rtl
+(_unit VHDL(or2 0 4(rtl 0 12))
+	(_version vf5)
+	(_time 1764354362162 2025.11.28 13:26:02)
+	(_source(\../src/or2.vhd\))
+	(_parameters tan)
+	(_code 58570b5a520a0e4e0e0a4a070b5e0e5f5a5b5a5e0e)
+	(_ent
+		(_time 1762883536831)
+	)
+	(_object
+		(_port(_int a_in -1 0 6(_ent(_in))))
+		(_port(_int b_in -1 0 7(_ent(_in))))
+		(_port(_int z_out -1 0 8(_ent(_out))))
+		(_prcs
+			(line__14(_arch 0 0 14(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 604           1764354362212 rtl
+(_unit VHDL(xnor2 0 5(rtl 0 13))
+	(_version vf5)
+	(_time 1764354362213 2025.11.28 13:26:02)
+	(_source(\../src/xnor2.vhd\))
+	(_parameters tan)
+	(_code 87898a89d5d08590848495dcde81d281d180858485)
+	(_ent
+		(_time 1762883536872)
+	)
+	(_object
+		(_port(_int a_in -1 0 7(_ent(_in))))
+		(_port(_int b_in -1 0 8(_ent(_in))))
+		(_port(_int z_out -1 0 9(_ent(_out))))
+		(_prcs
+			(line__16(_arch 0 0 16(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . rtl 1 -1)
+)
+V 000044 55 602           1764354362282 rtl
+(_unit VHDL(xor2 0 5(rtl 0 13))
+	(_version vf5)
+	(_time 1764354362283 2025.11.28 13:26:02)
+	(_source(\../src/xor2.vhd\))
+	(_parameters tan)
+	(_code c5cbc890969393d6c6c2dd9fc2c2c7c6c7c2cdc393)
 	(_ent
 		(_time 1762883536898)
 	)

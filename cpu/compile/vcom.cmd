@@ -1,1 +1,1 @@
--w -d C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/compile -s C:/Users/ulate/OneDrive/Desktop/cpu_443/library.cfg -j C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/projlib.cfg -work cpu -reorder -O3 -e 100 -work cpu -2002 C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/src/cpu.vhd C:/Users/ulate/OneDrive/Desktop/cpu_443/cpu/src/cpu_tb.vhd 
+-w -d C:/Aldec/My_Designs/cpu_443/cpu/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/cpu/projlib.cfg -work cpu -O3 -e 100 -work cpu -2002 C:/Aldec/My_Designs/cpu_443/cpu/src/cpu_tb.vhd 

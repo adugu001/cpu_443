@@ -19,11 +19,13 @@ FAMILY=
 [Files]
 /cpu.vhd=-1
 /cpu_tb.vhd=-1
-/cpu_tb.vhd=-1
+/andrewWF.asdb=-1
+/andrewWF.awc=-1
 [Files.Data]
 .\src\cpu.vhd=VHDL Source Code
 .\src\cpu_tb.vhd=VHDL Source Code
-.\src\cpu_tb.vhd=VHDL Source Code
+.\src\andrewWF.asdb=Accelerated Waveform File
+.\src\andrewWF.awc=Accelerated Waveform Configuration
 [folders]
 name0=ALINT-PRO Workspaces
 directory0=C:\Users\ulate\OneDrive\Desktop\cpu_443\cpu\

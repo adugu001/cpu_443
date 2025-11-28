@@ -1,59 +1,14 @@
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd
-# Compile Entity "instruction_decoder_tb"
-# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Error: COMP96_0078: instruction_decoder_tb.vhd : (49, 23): Unknown identifier "instruction_decoder".
-# Error: COMP96_0055: instruction_decoder_tb.vhd : (49, 18): Cannot find context item "work.instruction_decoder".
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd
-# Compile Entity "instruction_decoder_tb"
-# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Error: COMP96_0078: instruction_decoder_tb.vhd : (49, 23): Unknown identifier "instruction_decoder".
-# Error: COMP96_0055: instruction_decoder_tb.vhd : (49, 18): Cannot find context item "work.instruction_decoder".
-# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd $dsn/src/instruction_decoder.vhd
 # Compile Entity "instruction_decoder_tb"
 # Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Error: COMP96_0078: instruction_decoder_tb.vhd : (49, 23): Unknown identifier "instruction_decoder".
-# Error: COMP96_0055: instruction_decoder_tb.vhd : (49, 18): Cannot find context item "work.instruction_decoder".
+# Error: COMP96_0367: instruction_decoder_tb.vhd : (53, 32): Improper array length (3). Expected length is 4.
+# Error: COMP96_0367: instruction_decoder_tb.vhd : (54, 32): Improper array length (3). Expected length is 4.
+# Error: COMP96_0367: instruction_decoder_tb.vhd : (55, 32): Improper array length (3). Expected length is 4.
 # Compile Entity "instruction_decoder"
 # Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (62, 19): Cannot read output : "is_r_type".
-# Error: COMP96_0393: instruction_decoder.vhd : (73, 28): Cannot read output : "is_r_type".
-# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd $dsn/src/instruction_decoder.vhd
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder_tb.vhd
 # Compile Entity "instruction_decoder_tb"
 # Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Incorrect order of units detected.
-# Automatic reorder and incremental recompilation of required units in progress.
-# Top-level unit(s) detected:
-# Entity => instruction_decoder_tb
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (62, 19): Cannot read output : "is_r_type".
-# Error: COMP96_0393: instruction_decoder.vhd : (73, 28): Cannot read output : "is_r_type".
-# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
-# Compile failure 2 Errors 0 Warnings  Analysis time :  0.7 [s]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (60, 22): Cannot read output : "is_i_type".
-# Error: COMP96_0393: instruction_decoder.vhd : (63, 19): Cannot read output : "is_r_type".
-# Error: COMP96_0393: instruction_decoder.vhd : (74, 28): Cannot read output : "is_r_type".
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (63, 19): Cannot read output : "is_r_type".
-# Error: COMP96_0393: instruction_decoder.vhd : (74, 28): Cannot read output : "is_r_type".
-# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (74, 28): Cannot read output : "is_r_type".
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-# Design: Design "instructionfetch" has been set as active.
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design "cpu" has been set as active.

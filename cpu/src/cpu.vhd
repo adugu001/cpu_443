@@ -59,9 +59,9 @@ architecture structural of cpu is
         port (
             instruction     : in  STD_LOGIC_VECTOR(15 downto 0);
             opcode          : out STD_LOGIC_VECTOR(2 downto 0);
-            rs_addr         : out STD_LOGIC_VECTOR(2 downto 0);
-            rt_addr         : out STD_LOGIC_VECTOR(2 downto 0);
-            rd_addr         : out STD_LOGIC_VECTOR(2 downto 0);
+            rs_addr         : out STD_LOGIC_VECTOR(3 downto 0);
+            rt_addr         : out STD_LOGIC_VECTOR(3 downto 0);
+            rd_addr         : out STD_LOGIC_VECTOR(3 downto 0);
             immediate       : out STD_LOGIC_VECTOR(7 downto 0);
             is_r_type       : out STD_LOGIC;
             is_i_type       : out STD_LOGIC;
@@ -83,10 +83,10 @@ architecture structural of cpu is
     
     -- Decoded instruction fields
     signal opcode           : STD_LOGIC_VECTOR(2 downto 0);
-    signal rs_addr          : STD_LOGIC_VECTOR(2 downto 0);
-    signal rt_addr          : STD_LOGIC_VECTOR(2 downto 0);
-    signal rd_addr          : STD_LOGIC_VECTOR(2 downto 0);
-    signal rd_addr_final    : STD_LOGIC_VECTOR(2 downto 0);  -- Muxed for I-type
+    signal rs_addr          : STD_LOGIC_VECTOR(3 downto 0);
+    signal rt_addr          : STD_LOGIC_VECTOR(3 downto 0);
+    signal rd_addr          : STD_LOGIC_VECTOR(3 downto 0);
+    signal rd_addr_final    : STD_LOGIC_VECTOR(3 downto 0);  -- Muxed for I-type
     signal immediate        : STD_LOGIC_VECTOR(7 downto 0);
     signal immediate_ext    : STD_LOGIC_VECTOR(15 downto 0); -- Sign-extended
     
@@ -158,7 +158,7 @@ begin
     
     -- For I-type instructions, destination register is in bits 11-8 (not 11-9)
     -- Extract 4-bit register address and use only lower 3 bits
-    rd_addr_final <= instruction(10 downto 8) when is_i_type = '1' else rd_addr;
+    rd_addr_final <= instruction(11 downto 8) when is_i_type = '1' else rd_addr;
     
     -- Sign-extend immediate value to 16 bits (though for this project we don't need sign extension)
     immediate_ext <= X"00" & immediate;
@@ -191,7 +191,7 @@ begin
     -- ALU
     -- =============================================
     
-    ALU : entity alu16.alu16(structural)
+    ALU : entity alu16.alu16(behavioral)
         port map (
             A       => alu_input_a,
             B       => alu_input_b,

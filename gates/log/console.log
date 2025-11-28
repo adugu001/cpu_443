@@ -15,7 +15,7 @@ acom -O3 -e 100 -work gates -2002  $dsn/src/and2.vhd $dsn/src/buf1.vhd $dsn/src/
 # Compile Architecture "rtl" of Entity "xnor2"
 # Compile Entity "xor2"
 # Compile Architecture "rtl" of Entity "xor2"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
 # Design: Design "halfAdder" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].

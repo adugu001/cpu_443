@@ -1,1 +1,1 @@
--w -d C:/Users/ulate/OneDrive/Desktop/cpu_443/ram256/compile -s C:/Users/ulate/OneDrive/Desktop/cpu_443/library.cfg -j C:/Users/ulate/OneDrive/Desktop/cpu_443/ram256/projlib.cfg -work ram256 -O3 -e 100 -work ram256 -2008 C:/Users/ulate/OneDrive/Desktop/cpu_443/ram256/src/ram256.vhd 
+-w -d C:/Aldec/My_Designs/cpu_443/ram256/compile -s C:/Aldec/My_Designs/cpu_443/library.cfg -j C:/Aldec/My_Designs/cpu_443/ram256/projlib.cfg -work ram256 -O3 -e 100 -work ram256 -2008 C:/Aldec/My_Designs/cpu_443/ram256/src/ram256.vhd 

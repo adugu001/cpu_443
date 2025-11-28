@@ -11,6 +11,13 @@ acom -reorder -O3 -e 100 -work alu16 -2008  $dsn/src/alu16.vhd $dsn/src/alu16_tb
 # ELBREAD: Error: ELBREAD_0080 alu16.vhd (96): Design unit structural:adder16 instantiated in alu16.alu16 not found in searched libraries: adder16, alu16.
 # ELBREAD: Error: Elaboration process completed with errors.
 # Design: Error: Elaboration failed
+acom -O3 -e 100 -work alu16 -2008  $dsn/src/alu16.vhd $dsn/src/alu16_tb.vhd
+# Compile Entity "alu16"
+# Compile Architecture "behavioral" of Entity "alu16"
+# Compile Architecture "structural" of Entity "alu16"
+# Compile Entity "alu16_tb"
+# Compile Architecture "behavioral" of Entity "alu16_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 # Design: Design "adder16" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Error: Architecture 'structural' of entity 'adder16' not found in library 'adder16'.

@@ -1,5 +1,9 @@
 acom -O3 -e 100 -work mult16 -2002  $dsn/src/mult16.vhd
 # Compile Entity "mult16"
 # Compile Architecture "behavioral" of Entity "mult16"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
 # Design: Design "mux16" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'structural' of entity 'mux16' not found in library 'mux16'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed

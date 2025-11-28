@@ -1,28 +1,28 @@
-timestamp=1762884340887
+timestamp=1764354365864
 
 [~A]
-ModifyID=2
+ModifyID=3
 Version=74
 
 [~MFT]
-0=4|0halfAdder.mgf|2380|569
-1=4|1halfAdder.mgf|2423|1638
+0=4|0halfAdder.mgf|2949|1138
+1=4|1halfAdder.mgf|4061|3276
 3=2|3halfAdder.mgf|0|0
 
 [halfadder]
-A/behavioral=21|../src/halfAdder.vhd|16|1*1638
-A/structural=21|../src/halfAdder.vhd|22|1*2423
+A/behavioral=21|../src/halfAdder.vhd|16|1*3276
+A/structural=21|../src/halfAdder.vhd|22|1*4061
 BinW64/behavioral=3*0
 I=0*586
-I/behavioral=0*2128
-I/structural=0*2380
+I/behavioral=0*2697
+I/structural=0*2949
 M=11|2|vf5|1762883623393|../src/halfAdder.vhd|0*189*0xc0b11b7e886c7bc44e864d975db4595c1e396ad8|0*503*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=21|2|vf5|1762884340866|../src/halfAdder.vhd|0*827*0x6834d68cccfac7d43222b9ff5acb27c1c9b340d7|0*1035*0x20116f55b147878295aeff36dce7fc50
-M/structural=21|2|vf5|1762884340870|../src/halfAdder.vhd|0*1384*0x9a6c3ebd82deb1f7c184d16664bd4faeeeafc36c|0*1714*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=21|2|vf5|1764354365826|../src/halfAdder.vhd|0*827*0x6834d68cccfac7d43222b9ff5acb27c1c9b340d7|0*1035*0x20116f55b147878295aeff36dce7fc50
+M/structural=21|2|vf5|1764354365842|../src/halfAdder.vhd|0*1384*0x9a6c3ebd82deb1f7c184d16664bd4faeeeafc36c|0*1714*0x20116f55b147878295aeff36dce7fc50
 R=../src/halfAdder.vhd|7
 Version=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|df6222d8a183af79470a1a0a11a371eb1093b6854768ed9664634ca9f9371c7ba6144d5b9051a80011c5402dfaa07fe7
-Version/behavioral=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff499651ea237c32e4ef978ad9639200cd1
-Version/structural=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebf686bfd1d1fec969f12ff6602b843529
+Version/behavioral=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d38c5097344d1a6fe9bbc69b972a2394
+Version/structural=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eba715e87f4ef697617b43845b936076e0
 
 [~U]
 halfadder=halfAdder 11|0*0|

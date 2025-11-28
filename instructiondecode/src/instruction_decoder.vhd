@@ -12,9 +12,9 @@ entity instruction_decoder is
         
         -- Decoded fields/values
         opcode          : out STD_LOGIC_VECTOR(2 downto 0);    -- S2, S1, S0 for ALU
-        rs_addr         : out STD_LOGIC_VECTOR(2 downto 0);    -- Register source A (for R-type)
-        rt_addr         : out STD_LOGIC_VECTOR(2 downto 0);    -- Register source B (for R-type)
-        rd_addr         : out STD_LOGIC_VECTOR(2 downto 0);    -- Register destination
+        rs_addr         : out STD_LOGIC_VECTOR(3 downto 0);    -- Register source A (for R-type)
+        rt_addr         : out STD_LOGIC_VECTOR(3 downto 0);    -- Register source B (for R-type)
+        rd_addr         : out STD_LOGIC_VECTOR(3 downto 0);    -- Register destination
         immediate       : out STD_LOGIC_VECTOR(7 downto 0);    -- Immediate value (for I-type)
         
         -- Control signals
@@ -42,9 +42,9 @@ begin
     opcode <= S2 & S1 & S0;
     
     -- Extract register fields for R-type (bits 11-8, 7-4, 3-0)
-    rd_addr <= instruction(11 downto 9);   -- c field (destination)
-    rs_addr <= instruction(8 downto 6);    -- a field (source A)
-    rt_addr <= instruction(5 downto 3);    -- b field (source B)
+    rd_addr <= instruction(11 downto 8);   -- c field (destination)
+    rs_addr <= instruction(7 downto 4);    -- a field (source A)
+    rt_addr <= instruction(3 downto 0);    -- b field (source B)
     
     -- For I-type, rd is in bits 11-8, immediate in bits 7-0
     -- (rd_addr already extracts bits 11-9, but for I-type we need 11-8)
