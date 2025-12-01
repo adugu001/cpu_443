@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\alu16.vhd]
 FileTimeLow=3978534737
 FileTimeHigh=31218038
-Status=Compiled
+Status=Modified
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\mux16\src\mux.vhd|]
 CurrentLine=35
 CurrentColumn=0
@@ -49,7 +49,7 @@ Path=
 [COMPILESTATUS|.\src\alu16_tb.vhd]
 FileTimeLow=2811036476
 FileTimeHigh=31218036
-Status=Compiled
+Status=Modified
 [COMPILESTATUS|.\src\alu_waveform.asdb]
 FileTimeLow=407472402
 FileTimeHigh=31218035

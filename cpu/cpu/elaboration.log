@@ -1,41 +1,9 @@
-Active-HDL 15.0.260.9131 2025-11-28 15:43:32
+Active-HDL 15.0.260.9131 2025-11-30 14:51:23
 
 Elaboration top modules:
-Architecture                  behavioral(cpu_tb)
 
 
-----------------------------------------------------------------------------------------------------------------
-Entity              | Architecture | Library           | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------------------
-cpu_tb              | behavioral   | cpu               |      | 15.0.260.9131 (Windows64) | -O3
-cpu                 | structural   | cpu               |      | 15.0.260.9131 (Windows64) | -O3
-instruction_fetch   | behavioral   | instructionfetch  |      | 15.0.260.9131 (Windows64) | -O3
-instruction_memory  | behavioral   | instructionmemory |      | 15.0.260.9131 (Windows64) | -O3
-instruction_decoder | structural   | instructiondecode |      | 15.0.260.9131 (Windows64) | -O3
-registerFile        | behavioral   | registerfile      |      | 15.0.260.9131 (Windows64) | -O3 -2008
-alu16               | behavioral   | alu16             |      | 15.0.260.9131 (Windows64) | -O3 -2008
-RAM256              | behavioral   | ram256            |      | 15.0.260.9131 (Windows64) | -O3 -2008
-----------------------------------------------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------------------
-VHDL Package                       | Library           | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------------------
-standard                           | std               |      |                           | <unavailable>
-TEXTIO                             | std               |      | 15.0.260.9131 (Windows64) |  -2019
-std_logic_1164                     | ieee              |      | 15.0.260.9131 (Windows64) |  -2008
-NUMERIC_STD                        | ieee              |      | 15.0.260.9131 (Windows64) |  -2008
-----------------------------------------------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------------------
-Library                            | Comment
-----------------------------------------------------------------------------------------------------------------
-alu16                              | None
-cpu                                | None
-ieee                               | Standard IEEE packages library
-instructiondecode                  | None
-instructionfetch                   | None
-instructionmemory                  | None
-ram256                             | None
-registerfile                       | None
-std                                | Standard VHDL library
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------

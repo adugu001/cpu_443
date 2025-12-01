@@ -3,8 +3,8 @@ FileTimeLow=1173371057
 FileTimeHigh=31219243
 Status=Modified
 [COMPILESTATUS|.\src\instruction_decoder_tb.vhd]
-FileTimeLow=773887522
-FileTimeHigh=31219869
+FileTimeLow=757037783
+FileTimeHigh=31220307
 Status=Compiled
 [General]
 CurrentVersion=103
@@ -27,8 +27,8 @@ halfAdder=0
 instructiondecode=0
 instructionfetch=0
 [COMPILESTATUS|.\src\instruction_decoder.vhd]
-FileTimeLow=210815669
-FileTimeHigh=31219877
+FileTimeLow=2415591229
+FileTimeHigh=31220299
 Status=Compiled
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\instructiondecode\src/instruction_decoder_tb.vhd|]
 CurrentLine=36

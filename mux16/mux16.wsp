@@ -1,11 +1,11 @@
 [COMPILESTATUS|.\src\mux16.vhd]
 FileTimeLow=4145314927
 FileTimeHigh=31216437
-Status=Compiled
+Status=Modified
 [COMPILESTATUS|.\src\mux.vhd]
 FileTimeLow=566836293
 FileTimeHigh=31216437
-Status=Compiled
+Status=Modified
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 gates=0

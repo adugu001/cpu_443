@@ -1,1 +1,2 @@
-.\src\instructionfetch.vhd
+.\src\instruction_fetch.vhd
+.\src\instruction_fetch_tb.vhd

@@ -20,7 +20,6 @@ FAMILY=
 /instruction_decoder_tb.vhd=-1
 /instruction_decoder.vhd=-1
 [Files.Data]
-.\src\instructiondecoder.vhd=VHDL Source Code
 .\src\instruction_decoder_tb.vhd=VHDL Source Code
 .\src\instruction_decoder.vhd=VHDL Source Code
 [folders]

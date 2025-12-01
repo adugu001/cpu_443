@@ -5,6 +5,6 @@ Path=
 [COMPILESTATUS|.\src\instruction_memory.vhd]
 FileTimeLow=1795223124
 FileTimeHigh=31219859
-Status=Compiled
+Status=Modified
 [Gui config]
 RunFor=100 ns

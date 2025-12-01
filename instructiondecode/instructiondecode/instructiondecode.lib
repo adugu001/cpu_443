@@ -1,36 +1,36 @@
-timestamp=1764361491219
+timestamp=1764546232791
 
 [~A]
-ModifyID=13
+ModifyID=18
 Version=74
 
 [~MFT]
-0=8|0instructiondecode.mgf|19950|12732
-1=2|1instructiondecode.mgf|54795|41325
-3=2|3instructiondecode.mgf|7795|6678
+0=8|0instructiondecode.mgf|78618|58267
+1=2|1instructiondecode.mgf|92886|72691
+3=2|3instructiondecode.mgf|12094|10484
 
 [instruction_decoder]
-A/structural=21|../src/instruction_decoder.vhd|31|1*54795
-BinW64/structural=3*7795
-I=0*13223
-I/structural=0*19950
-M=11|2|vf5|1764357932283|../src/instruction_decoder.vhd|0*12449*0x15a5f920d96cb508866574da1c30bef738673cbf|0*13120*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=21|2|vf5|1764361491162|../src/instruction_decoder.vhd|0*18826*0xc3a5a013d0da1c90a83fdf34b5f43c31e895678a|0*19833*0x20116f55b147878295aeff36dce7fc50
+A/structural=21|../src/instruction_decoder.vhd|31|1*63356
+BinW64/structural=3*10484
+I=0*26058
+I/structural=0*27434
+M=11|2|vf5|1764543152238|../src/instruction_decoder.vhd|0*25283*0xfc4c0b629cb7f878699c1d983377f3050afed709|0*25955*0xd986fd7175c8cf28cd774bcadde79966
+M/structural=21|2|vf5|1764543152240|../src/instruction_decoder.vhd|0*26309*0x9e1f3dc1daf8215979d798d19f36a5e2fa078689|0*27317*0x3666052002612506830c83371aef600f
 R=../src/instruction_decoder.vhd|9
-Version=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|ca35fc9534a8cfce866c0066a9a678c8b2cd37d5b0762b52c86445e85a30f1bc64673977a43037ced4614623143eee5f
-Version/structural=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb9b9e9c646619e7cfbbecace15718838d
+Version=15.0.260.9131 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|ca35fc9534a8cfce866c0066a9a678c8b2cd37d5b0762b52c86445e85a30f1bccb7953aafba65a073167595203a7d070
+Version/structural=15.0.260.9131 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb0ca99ce34cd0e722bfd55c9d21614f7c
 
 [instruction_decoder_tb]
-A/behavioral=21|../src/instruction_decoder_tb.vhd|12|1*49629
-BinW64/behavioral=3*6678
-I=0*507
-I/behavioral=0*18514
-M=11|2|vf5|1764125657868|../src/instruction_decoder_tb.vhd|0*150*0x91577d3394bd34b7b1af92373ce36e77349e97ef|0*398*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=21|2|vf5|1764358111484|../src/instruction_decoder_tb.vhd|0*14813*0x365bd5fca5463c7d2c527fbd5d16a627ea458bd2|0*18391*0x20116f55b147878295aeff36dce7fc50
-R=../src/instruction_decoder_tb.vhd|9
-Version=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|ca35fc9534a8cfce866c0066a9a678c8adc5647e7e802232cbddfbf729c37d155b34aa08ccfaea3c7b80b2868fd085ea
-Version/behavioral=15.0.260.9131 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff447deea1f61b1c9c9f85837fc2d27125e
+A/behavioral=21|../src/instruction_decoder_tb.vhd|13|1*92886
+BinW64/behavioral=3*12094
+I=0*28224
+I/behavioral=0*78618
+M=11|2|vf5|1764545390852|../src/instruction_decoder_tb.vhd|0*27846*0x0728d0cec63453661ce0b1fe7a3a0ae3ab40971f|0*28115*0xd986fd7175c8cf28cd774bcadde79966
+M/behavioral=21|2|vf5|1764546232762|../src/instruction_decoder_tb.vhd|0*61757*0x89cf182886283dc69ab002a2216bc92362d69f08|0*78495*0x3666052002612506830c83371aef600f
+R=../src/instruction_decoder_tb.vhd|10
+Version=15.0.260.9131 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|ca35fc9534a8cfce866c0066a9a678c8adc5647e7e802232cbddfbf729c37d1516bdb6f7849109b2b103ff48f2b3b401
+Version/behavioral=15.0.260.9131 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4914fd247ce7f6fc8da9e607a543c5e08
 
 [~U]
-instruction_decoder=11|0*12154|
-instruction_decoder_tb=11|0*0|
+instruction_decoder=11|0*24988|
+instruction_decoder_tb=11|0*27696|

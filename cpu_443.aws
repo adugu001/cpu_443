@@ -30,12 +30,12 @@ subtractor16=0
 mux16=0
 mult16=0
 alu16=0
-ram256=1
+ram256=0
 registerfile=0
 register16=0
-instructionfetch=0
+instructionfetch=1
 instructiondecode=0
-cpu=1
+cpu=0
 instructionmemory=0
 [Settings]
-Active=cpu
+Active=instructionfetch

@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\registerFile.vhd]
 FileTimeLow=1244759095
 FileTimeHigh=31219872
-Status=Compiled
+Status=Modified
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\registerFile\registerFile.adf|]

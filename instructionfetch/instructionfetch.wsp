@@ -1,6 +1,6 @@
-[COMPILESTATUS|.\src\instructionfetch.vhd]
-FileTimeLow=1795333126
-FileTimeHigh=31219859
+[COMPILESTATUS|.\src\instruction_fetch.vhd]
+FileTimeLow=1044811799
+FileTimeHigh=31220311
 Status=Compiled
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
@@ -21,5 +21,9 @@ mux16=0
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\instructionfetch\instructionfetch.adf|]
 Path=
+[COMPILESTATUS|.\src\instruction_fetch_tb.vhd]
+FileTimeLow=1428068330
+FileTimeHigh=31220315
+Status=Modified
 [Gui config]
 RunFor=100 ns

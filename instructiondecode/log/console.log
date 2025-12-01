@@ -1,12 +1,535 @@
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd $dsn/src/instruction_decoder.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
 # Compile Entity "instruction_decoder"
 # Compile Architecture "structural" of Entity "instruction_decoder"
-# Error: COMP96_0393: instruction_decoder.vhd : (47, 46): Cannot read output : "mem_write".
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work instructiondecode -2002  $dsn/src/instruction_decoder.vhd
-# Compile Entity "instruction_decoder"
-# Compile Architecture "structural" of Entity "instruction_decoder"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-# Design: Design "cpu" has been set as active.
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
+# Error: COMP96_0015: instruction_decoder_tb.vhd : (427, 21): ')' expected.
+# Error: COMP96_0015: instruction_decoder_tb.vhd : (427, 26): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
+# Error: ELAB1_0028: instruction_decoder_tb.vhd : (127, 0): Entity port length is 4. rs_addr length is 3.
+# Error: ELAB1_0028: instruction_decoder_tb.vhd : (127, 0): Entity port length is 4. rt_addr length is 3.
+# Error: ELAB1_0028: instruction_decoder_tb.vhd : (127, 0): Entity port length is 4. rd_addr length is 3.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (165, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (166, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (167, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (176, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (177, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (178, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (187, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (188, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (189, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (198, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (199, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (200, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (209, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (210, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (211, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (220, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (221, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (222, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (239, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (249, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (259, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (269, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (279, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (289, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (405, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (406, 16): Array comparison is always FALSE.
+# Warning: COMP96_0421: instruction_decoder_tb.vhd : (407, 16): Array comparison is always FALSE.
+# Compile success 0 Errors 27 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L altera -L altera_lnsim -L altera_lnsim_ver -L altera_mf -L altera_mf_ver -L altera_ver -L cyclonev +access +r +m+instruction_decoder_tb instruction_decoder_tb behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6702 kB (elbread=427 elab2=6120 kernel=154 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\ulate\Desktop\cpu_443\instructiondecode\src\wave.asdb
+#  3:37 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : COMPREHENSIVE INSTRUCTION DECODER TEST
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 1: R-Type Instructions
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 1: add $r2, $r0, $r1 (0x0201)
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [ADD]
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 2
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 0
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 1
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 2: mult $r3, $r0, $r1 (0x1301)
+# EXECUTION:: Time: 250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [MULT]
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 3
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 0
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 1
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 3: pa $r5, $r2, $r0 (0x2520)
+# EXECUTION:: Time: 400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [PA]
+# EXECUTION:: Time: 450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 5
+# EXECUTION:: Time: 450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 2
+# EXECUTION:: Time: 450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 0
+# EXECUTION:: Time: 450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 4: pb $r6, $r0, $r3 (0x3603)
+# EXECUTION:: Time: 550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [PB]
+# EXECUTION:: Time: 600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 6
+# EXECUTION:: Time: 600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 0
+# EXECUTION:: Time: 600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 3
+# EXECUTION:: Time: 600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 5: sub $r4, $r0, $r1 (0x4401)
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SUB]
+# EXECUTION:: Time: 750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 4
+# EXECUTION:: Time: 750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 0
+# EXECUTION:: Time: 750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 1
+# EXECUTION:: Time: 750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 6: add $r7, $r5, $r3 (0x0753)
+# EXECUTION:: Time: 850 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [ADD (r7,r5,r3)]
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 7
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 5
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 3
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 2: I-Type Instructions
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 7: ldi $r0, 10 (0x500A)
+# EXECUTION:: Time: 1 us,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LDI (r0,10)]
+# EXECUTION:: Time: 1050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 0
+# EXECUTION:: Time: 1050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 8: ldi $r7, 255 (0x57FF)
+# EXECUTION:: Time: 1150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LDI (r7,255)]
+# EXECUTION:: Time: 1200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 7
+# EXECUTION:: Time: 1200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 9: sh $r3, 0x0B (0x630B)
+# EXECUTION:: Time: 1300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SH (r3,0x0B)]
+# EXECUTION:: Time: 1350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 3 (source reg)
+# EXECUTION:: Time: 1350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 10: sh $r5, 0xFF (0x65FF)
+# EXECUTION:: Time: 1450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SH (r5,0xFF)]
+# EXECUTION:: Time: 1500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 5
+# EXECUTION:: Time: 1500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 11: lh $r6, 0x0A (0x760A)
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LH (r6,0x0A)]
+# EXECUTION:: Time: 1650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 6
+# EXECUTION:: Time: 1650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 12: lh $r0, 0x00 (0x7000)
+# EXECUTION:: Time: 1750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LH (r0,0x00)]
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 0
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 3: Test Program Instructions
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 13: ldi $r0, 10 (0x500A) - Program instruction 0
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[0]]
+# EXECUTION:: Time: 1950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 14: ldi $r1, 5 (0x5105) - Program instruction 1
+# EXECUTION:: Time: 2050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[1]]
+# EXECUTION:: Time: 2100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 15: add $r2, $r0, $r1 (0x0201) - Program instruction 8
+# EXECUTION:: Time: 2200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[8]]
+# EXECUTION:: Time: 2250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 16: mult $r3, $r0, $r1 (0x1301) - Program instruction 9
+# EXECUTION:: Time: 2350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[9]]
+# EXECUTION:: Time: 2400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 17: sub $r4, $r0, $r1 (0x4401) - Program instruction 10
+# EXECUTION:: Time: 2500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[10]]
+# EXECUTION:: Time: 2550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 18: sh $r3, 0x0B (0x630B) - Program instruction 11
+# EXECUTION:: Time: 2650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[11]]
+# EXECUTION:: Time: 2700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 19: sh $r4, 0x0A (0x640A) - Program instruction 12
+# EXECUTION:: Time: 2800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[12]]
+# EXECUTION:: Time: 2850 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 20: lh $r6, 0x0A (0x760A) - Program instruction 13
+# EXECUTION:: Time: 2950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[13]]
+# EXECUTION:: Time: 3 us,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 21: lh $r7, 0x0B (0x770B) - Program instruction 14
+# EXECUTION:: Time: 3100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[14]]
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 4: Edge Cases and Boundary Values
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 22: Instruction 0x0000 (add $r0, $r0, $r0)
+# EXECUTION:: Time: 3250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [All zeros]
+# EXECUTION:: Time: 3300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 23: ldi $r0, 0 (0x5000)
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Imm=0]
+# EXECUTION:: Time: 3450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 24: ldi $r7, 255 (0x57FF)
+# EXECUTION:: Time: 3550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Imm=255]
+# EXECUTION:: Time: 3600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 25: add $r7, $r7, $r7 (0x0777)
+# EXECUTION:: Time: 3700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [All regs=7]
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rd_addr should be 7
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rs_addr should be 7
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: ERROR  : FAIL: rt_addr should be 7
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 5: Control Signal Truth Table
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Opcode | Inst | is_R | is_I | ALU | MW | MR | RW | M2R |
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : -------|------|------|------|-----|----|----|----|----|
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 0      | add  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 3900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 1      | mult | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 2      | pa   | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 3      | pb   | '0'    | '1'    | '0'   | '1'  | '0'  | '0'  | '0' |
+# EXECUTION:: Time: 4350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 4      | sub  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 5      | ldi  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 6      | sh   | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 7      | lh   | '0'    | '1'    | '0'   | '1'  | '0'  | '0'  | '0' |
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUMMARY
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Total Tests:  25
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Tests Passed: 25
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Tests Failed: 0
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ALL TESTS PASSED! Decoder is working correctly!
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Simulation complete. You can now verify timing and waveforms.
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work instructiondecode -2008  $dsn/src/instruction_decoder_tb.vhd
+# Compile Entity "instruction_decoder_tb"
+# Compile Architecture "behavioral" of Entity "instruction_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 -L altera -L altera_lnsim -L altera_lnsim_ver -L altera_mf -L altera_mf_ver -L altera_ver -L cyclonev +access +r +m+instruction_decoder_tb instruction_decoder_tb behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6703 kB (elbread=427 elab2=6121 kernel=154 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\ulate\Desktop\cpu_443\instructiondecode\src\wave.asdb
+#  3:43 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+run
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : COMPREHENSIVE INSTRUCTION DECODER TEST
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 1: R-Type Instructions
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 1: add $r2, $r0, $r1 (0x0201)
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [ADD]
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 2: mult $r3, $r0, $r1 (0x1301)
+# EXECUTION:: Time: 250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [MULT]
+# EXECUTION:: Time: 300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 3: pa $r5, $r2, $r0 (0x2520)
+# EXECUTION:: Time: 400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [PA]
+# EXECUTION:: Time: 450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 4: pb $r6, $r0, $r3 (0x3603)
+# EXECUTION:: Time: 550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [PB]
+# EXECUTION:: Time: 600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 5: sub $r4, $r0, $r1 (0x4401)
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SUB]
+# EXECUTION:: Time: 750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 6: add $r7, $r5, $r3 (0x0753)
+# EXECUTION:: Time: 850 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [ADD (r7,r5,r3)]
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 2: I-Type Instructions
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 7: ldi $r0, 10 (0x500A)
+# EXECUTION:: Time: 1 us,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LDI (r0,10)]
+# EXECUTION:: Time: 1050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 8: ldi $r7, 255 (0x57FF)
+# EXECUTION:: Time: 1150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LDI (r7,255)]
+# EXECUTION:: Time: 1200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 9: sh $r3, 0x0B (0x630B)
+# EXECUTION:: Time: 1300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SH (r3,0x0B)]
+# EXECUTION:: Time: 1350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 10: sh $r5, 0xFF (0x65FF)
+# EXECUTION:: Time: 1450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [SH (r5,0xFF)]
+# EXECUTION:: Time: 1500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 11: lh $r6, 0x0A (0x760A)
+# EXECUTION:: Time: 1600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LH (r6,0x0A)]
+# EXECUTION:: Time: 1650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 12: lh $r0, 0x00 (0x7000)
+# EXECUTION:: Time: 1750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [LH (r0,0x00)]
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 3: Test Program Instructions
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 13: ldi $r0, 10 (0x500A) - Program instruction 0
+# EXECUTION:: Time: 1900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[0]]
+# EXECUTION:: Time: 1950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 14: ldi $r1, 5 (0x5105) - Program instruction 1
+# EXECUTION:: Time: 2050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[1]]
+# EXECUTION:: Time: 2100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 15: add $r2, $r0, $r1 (0x0201) - Program instruction 8
+# EXECUTION:: Time: 2200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[8]]
+# EXECUTION:: Time: 2250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 16: mult $r3, $r0, $r1 (0x1301) - Program instruction 9
+# EXECUTION:: Time: 2350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[9]]
+# EXECUTION:: Time: 2400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 17: sub $r4, $r0, $r1 (0x4401) - Program instruction 10
+# EXECUTION:: Time: 2500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[10]]
+# EXECUTION:: Time: 2550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 18: sh $r3, 0x0B (0x630B) - Program instruction 11
+# EXECUTION:: Time: 2650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[11]]
+# EXECUTION:: Time: 2700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 19: sh $r4, 0x0A (0x640A) - Program instruction 12
+# EXECUTION:: Time: 2800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[12]]
+# EXECUTION:: Time: 2850 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 20: lh $r6, 0x0A (0x760A) - Program instruction 13
+# EXECUTION:: Time: 2950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[13]]
+# EXECUTION:: Time: 3 us,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 21: lh $r7, 0x0B (0x770B) - Program instruction 14
+# EXECUTION:: Time: 3100 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Prog[14]]
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 4: Edge Cases and Boundary Values
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 3150 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 22: Instruction 0x0000 (add $r0, $r0, $r0)
+# EXECUTION:: Time: 3250 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [All zeros]
+# EXECUTION:: Time: 3300 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 23: ldi $r0, 0 (0x5000)
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Imm=0]
+# EXECUTION:: Time: 3450 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 24: ldi $r7, 255 (0x57FF)
+# EXECUTION:: Time: 3550 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [Imm=255]
+# EXECUTION:: Time: 3600 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Test 25: add $r7, $r7, $r7 (0x0777)
+# EXECUTION:: Time: 3700 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : PASS [All regs=7]
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUITE 5: Control Signal Truth Table
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : --------------------------------------------------------------------
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Opcode | Inst | is_R | is_I | ALU | MW | MR | RW | M2R |
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : -------|------|------|------|-----|----|----|----|----|
+# EXECUTION:: Time: 3750 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 0      | add  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 3900 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 1      | mult | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4050 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 2      | pa   | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4200 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 3      | pb   | '0'    | '1'    | '0'   | '1'  | '0'  | '0'  | '0' |
+# EXECUTION:: Time: 4350 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 4      | sub  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4500 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 5      | ldi  | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4650 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 6      | sh   | '1'    | '0'    | '1'   | '0'  | '0'  | '1'  | '0' |
+# EXECUTION:: Time: 4800 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 7      | lh   | '0'    | '1'    | '0'   | '1'  | '0'  | '0'  | '0' |
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : TEST SUMMARY
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Total Tests:  25
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Tests Passed: 25
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Tests Failed: 0
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ALL TESTS PASSED! Decoder is working correctly!
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : ========================================================================
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : 
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# EXECUTION:: NOTE   : Simulation complete. You can now verify timing and waveforms.
+# EXECUTION:: Time: 4950 ns,  Iteration: 0,  Instance: /instruction_decoder_tb,  Process: STIMULUS.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Design: Design "instructionfetch" has been set as active.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
