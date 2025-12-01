@@ -5,7 +5,7 @@ Status=Modified
 [COMPILESTATUS|.\src\instruction_decoder_tb.vhd]
 FileTimeLow=757037783
 FileTimeHigh=31220307
-Status=Compiled
+Status=Modified
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\instructiondecode\instructiondecode.adf|]
@@ -29,7 +29,7 @@ instructionfetch=0
 [COMPILESTATUS|.\src\instruction_decoder.vhd]
 FileTimeLow=2415591229
 FileTimeHigh=31220299
-Status=Compiled
+Status=Modified
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\instructiondecode\src/instruction_decoder_tb.vhd|]
 CurrentLine=36
 CurrentColumn=48

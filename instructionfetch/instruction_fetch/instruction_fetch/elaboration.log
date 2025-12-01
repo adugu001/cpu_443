@@ -1,35 +1,9 @@
-Active-HDL 15.0.260.9131 2025-11-30 16:41:56
+Active-HDL 15.0.260.9131 2025-11-30 22:32:02
 
 Elaboration top modules:
-Architecture                  behavioral(instruction_fetch_tb)
 
 
------------------------------------------------------------------------------------------------------------------
-Entity               | Architecture | Library           | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------------
-instruction_fetch_tb | behavioral   | instruction_fetch |      | 15.0.260.9131 (Windows64) | -dbg -2008
-instruction_fetch    | behavioral   | instruction_fetch |      | 15.0.260.9131 (Windows64) | -dbg -2008
------------------------------------------------------------------------------------------------------------------
-
------------------------------------------------------------------------------------------------------------------
-VHDL Package                        | Library           | Info | Compiler Version          | Compilation Options
------------------------------------------------------------------------------------------------------------------
-standard                            | std               |      |                           | <unavailable>
-TEXTIO                              | std               |      | 15.0.260.9131 (Windows64) |  -2019
-std_logic_1164                      | ieee              |      | 15.0.260.9131 (Windows64) |  -2008
-NUMERIC_STD                         | ieee              |      | 15.0.260.9131 (Windows64) |  -2008
------------------------------------------------------------------------------------------------------------------
-
------------------------------------------------------------------------------------------------------------------
-Library                             | Comment
------------------------------------------------------------------------------------------------------------------
-ieee                                | Standard IEEE packages library
-instruction_fetch                   | None
-std                                 | Standard VHDL library
------------------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 -L altera -L altera_lnsim -L altera_lnsim_ver -L altera_mf -L altera_mf_ver -L altera_ver -L cyclonev +access +r +m+instruction_fetch_tb instruction_fetch_tb behavioral
-
-
-The performance of simulation is reduced. Version EDU Edition
+----------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------

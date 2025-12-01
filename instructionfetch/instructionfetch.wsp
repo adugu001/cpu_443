@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\instruction_fetch.vhd]
 FileTimeLow=1044811799
 FileTimeHigh=31220311
-Status=Compiled
+Status=Modified
 [CACHESIMPLE|Aldec.SymbolsCommands.7]
 Built-in symbols=0
 ram256=0

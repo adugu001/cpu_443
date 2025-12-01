@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet1">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="write_stim" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="200ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/write_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="clk_stim" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/CLK_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rd_stim" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="400ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/rd_num_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="data_in_stim" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="hexadecimal"/>
+							<period value="400ns"/>
+							<start_value value="FF"/>
+							<modify_by_value value="3"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/data_in_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rs_stim" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="1" time="325ns"/>
+								<entry value="11" time="625ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/rs_num_sig"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rt_stim" strength="default" enabled="true" type="formula">
+						<stimulus_data>
+							<repeat_time value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<entries>
+								<entry value="0" time="0fs"/>
+								<entry value="10" time="325ns"/>
+							</entries>
+						</stimulus_data>
+						<signals>
+							<signal path="/registerFile_tb/rt_num_sig"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

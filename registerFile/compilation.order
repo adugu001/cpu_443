@@ -1,1 +1,2 @@
 .\src\registerFile.vhd
+.\src\registerfile_tb.vhd

@@ -55,8 +55,14 @@ directory11=C:\Aldec\My_Designs\cpu_443\ram256\
 extension11=asdb;awc;asdbc;asdbe
 [Files]
 /ram256.vhd=-1
+/ram256_tb.vhd=-1
+/ram_wf.asdb=-1
+/ram_wf.awc=-1
 [Files.Data]
 .\src\ram256.vhd=VHDL Source Code
+.\src\ram256_tb.vhd=VHDL Source Code
+.\src\ram_wf.asdb=Accelerated Waveform File
+.\src\ram_wf.awc=Accelerated Waveform Configuration
 [LocalVhdlSets]
 NetlistCompilation=1
 EnableVHDL93Key=0

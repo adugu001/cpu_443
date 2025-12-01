@@ -1,1 +1,2 @@
 .\src\ram256.vhd
+.\src\ram256_tb.vhd

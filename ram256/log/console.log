@@ -1,7 +1,235 @@
-acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd
+acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd $dsn/src/ram256_tb.vhd
 # Compile Entity "RAM256"
 # Compile Architecture "behavioral" of Entity "RAM256"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-# Design: Design "cpu" has been set as active.
+# Compile Entity "ram256_tb"
+# Compile Architecture "behavioral" of Entity "ram256_tb"
+# Error: COMP96_0367: ram256_tb.vhd : (25, 17): Improper array length (4). Expected length is 8.
+# Error: COMP96_0367: ram256_tb.vhd : (26, 16): Improper array length (4). Expected length is 8.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd $dsn/src/ram256_tb.vhd
+# Compile Entity "RAM256"
+# Compile Architecture "behavioral" of Entity "RAM256"
+# Compile Entity "ram256_tb"
+# Compile Architecture "behavioral" of Entity "ram256_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r ram256_tb behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5574 kB (elbread=427 elab2=5007 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Aldec\My_Designs\cpu_443\ram256\src\wave.asdb
+#  10:41 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Aldec/My_Designs/cpu_443/ram256/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# WAVEFORM: 4 signal(s) removed.
+# WAVEFORM: 2 signal(s) removed.
+run @500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 300 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 400 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 500 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 600 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 700 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 800 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 900 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1 us,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5574 kB (elbread=427 elab2=5007 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Aldec\My_Designs\cpu_443\ram256\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:44 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Aldec/My_Designs/cpu_443/ram256/src/wave.asdb'.
+# WAVEFORM: 2 object(s) inserted to virtual group 'READ'.
+# WAVEFORM: 4 object(s) inserted to virtual group 'WRITE'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 150 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 200 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 250 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 300 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 350 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 350 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 400 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 450 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 450 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 500 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 550 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 550 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 600 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 650 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 650 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 700 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 750 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 750 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 800 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 850 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 850 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 900 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 950 ns,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 950 ns,  Iteration: 1,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 1 us,  Iteration: 0,  Instance: /ram256_tb/UUT,  Process: BEH_PROCESS.
+# KERNEL: stopped at time: 1 us
+# Waveform file 'C:/Aldec/My_Designs/cpu_443/ram256/src/ram_wf.awc' connected to 'C:/Aldec/My_Designs/cpu_443/ram256/src/ram_wf.asdb'.
+# WAVEFORM: 2 object(s) inserted to virtual group 'READ'.
+# WAVEFORM: 4 object(s) inserted to virtual group 'WRITE'.
+# Adding file C:\Aldec\My_Designs\cpu_443\ram256\src\ram_wf.asdb ... Done
+# Adding file C:\Aldec\My_Designs\cpu_443\ram256\src\ram_wf.awc ... Done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5574 kB (elbread=427 elab2=5007 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Aldec\My_Designs\cpu_443\ram256\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:48 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1us
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5574 kB (elbread=427 elab2=5007 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Aldec\My_Designs\cpu_443\ram256\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  10:48 PM, Sunday, November 30, 2025
+#  Simulation has been initialized
+# Waveform file 'C:/Aldec/My_Designs/cpu_443/ram256/src/ram_wf.awc' connected to 'C:/Aldec/My_Designs/cpu_443/ram256/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/rd_addr_sig" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/data_out_sig" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/CLK" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/wr_addr_sig" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/data_in_sig" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/write_sig" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/ram256_tb/UUT/memory" has already been traced.
+# WAVEFORM: 2 object(s) inserted to virtual group 'READ'.
+# WAVEFORM: 4 object(s) inserted to virtual group 'WRITE'.
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+run @1us
+# KERNEL: stopped at time: 1 us
+# Adding file C:\Aldec\My_Designs\cpu_443\ram256\src\ram_wf.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work ram256 -2008  $dsn/src/ram256.vhd $dsn/src/ram256_tb.vhd
+# Compile Entity "RAM256"
+# Compile Architecture "behavioral" of Entity "RAM256"
+# Compile Entity "ram256_tb"
+# Compile Architecture "behavioral" of Entity "ram256_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Design: Design "registerFile" has been set as active.

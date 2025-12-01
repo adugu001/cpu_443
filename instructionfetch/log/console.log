@@ -1,0 +1,5 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'behavioral' of entity 'instruction_fetch_tb' not found in library 'instruction_fetch'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Design: Design "ram256" has been set as active.

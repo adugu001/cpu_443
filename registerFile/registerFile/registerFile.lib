@@ -1,24 +1,36 @@
-timestamp=1764359447117
+timestamp=1764561282190
 
 [~A]
-ModifyID=16
+ModifyID=17
 Version=74
 
 [~MFT]
-0=8|0registerFile.mgf|10378|8503
-1=2|1registerFile.mgf|21960|18449
-3=2|3registerFile.mgf|0|0
+0=9|0registerFile.mgf|12244|8503
+1=3|1registerFile.mgf|25546|18449
+3=3|3registerFile.mgf|709|0
 
 [registerfile]
-A/behavioral=21|../src/registerFile.vhd|18|1*21960
+A/behavioral=21|../src/registerFile.vhd|18|1*23756
 BinW64/behavioral=3*0
 I=0*6817
 I/behavioral=0*10378
 M=11|2|vf5|1764358181194|../src/registerFile.vhd|0*6241*0xcfb3f62144783e9e2f233f6468995ac08f5902d4|0*6728*0xd986fd7175c8cf28cd774bcadde79966
-M/behavioral=21|2|vf5|1764359447073|../src/registerFile.vhd|0*9562*0x1ef0445de5e99cfd5f6eab3de1ea2eb1d08a912a|0*10275*0xb966535deb9617f745ced53ae4cc1a7f
+M/behavioral=21|2|vf5|1764561282078|../src/registerFile.vhd|0*9562*0x1ef0445de5e99cfd5f6eab3de1ea2eb1d08a912a|0*10275*0xb966535deb9617f745ced53ae4cc1a7f
 R=../src/registerFile.vhd|5
 Version=15.0.260.9131 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|38db9fa1fe03d50fc5439456f1e680f15f792adacedd7e3de6b5acf8d6dd8ce7f2a482f68cf15afa6ac06fbad1e41948
-Version/behavioral=15.0.260.9131 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c39a459931d1d5043ae9856c6bc70d26
+Version/behavioral=15.0.260.9131 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4ea2f5844a0783679a02894cd11d4e749
+
+[registerfile_tb]
+A/behavioral=21|../src/registerfile_tb.vhd|8|1*25546
+BinW64/behavioral=3*709
+I=0*11084
+I/behavioral=0*12244
+M=11|2|vf5|1764561282141|../src/registerfile_tb.vhd|0*10769*0x071adca44dc639aac885b2e983eba43390415dad|0*10989*0xd986fd7175c8cf28cd774bcadde79966
+M/behavioral=21|2|vf5|1764561282143|../src/registerfile_tb.vhd|0*11331*0xabe7028187b1e583dbec1985e19d38860bb4efd4|0*12135*0xb966535deb9617f745ced53ae4cc1a7f
+R=../src/registerfile_tb.vhd|5
+Version=15.0.260.9131 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|37716fc84635d2f9f86f5378a6cc7b0e062e8b40127ba91b34cd14ea5069bf246b6d43810c97d25e0578dc2b5b208478
+Version/behavioral=15.0.260.9131 (Windows64)|00000009789cd3f53756d0353230b00000090c01c7|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff42ec9058dce121b5946415ae287379370
 
 [~U]
 registerfile=registerFile 11|0*6002|
+registerfile_tb=registerFile_tb 11|0*10633|

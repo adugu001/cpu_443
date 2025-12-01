@@ -1,5 +1,1 @@
-# ELBREAD: Elaboration process.
-# ELBREAD: Error: Architecture 'behavioral' of entity 'cpu_tb' not found in library 'cpu'.
-# ELBREAD: Error: Elaboration process completed with errors.
-# Design: Error: Elaboration failed
-# Design: Design "instructiondecode" has been set as active.
+# Design: Design "ram256" has been set as active.
